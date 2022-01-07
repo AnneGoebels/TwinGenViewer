@@ -1,0 +1,1793 @@
+@prefix schema: <http://schema.org/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix bot:   <https://w3id.org/bot#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix lbd:   <https://linkebuildingdata.org/LBD#> .
+@prefix props: <http://lbd.arch.rwth-aachen.de/props#> .
+@prefix geo:   <http://www.opengis.net/ont/geosparql#> .
+@prefix unit:  <http://qudt.org/vocab/unit/> .
+@prefix IFC4-PSD: <https://www.linkedbuildingdata.net/IFC4-PSD#> .
+@prefix smls:  <https://w3id.org/def/smls-owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix inst:  <https://www.asbingowl.org/BW452#> .
+@prefix prov:  <http://www.w3.org/ns/prov#> .
+
+inst:buildingelement_b2b22d62-5b8e-42af-ba99-9fddd5a722ae
+        a                          bot:Element ;
+        props:batid                [ schema:value
+                          "14734" ] ;
+        props:depth                [ schema:value
+                          "6.05643360821916"^^xsd:double ] ;
+        props:globalIdIfcRoot      [ schema:value
+                          "2oiYrYMuv2hxgPdztLfoAk" ] ;
+        props:nameIfcRoot          [ schema:value
+                          "Pfeiler A20:Pfeiler A20:14734" ] ;
+        props:objectTypeIfcObject  [ schema:value
+                          "Pfeiler A20:Pfeiler A20" ] ;
+        props:reference            [ rdfs:seeAlso  <https://www.linkedbuildingdata.net/IFC4-PSD/Pset_BuildingElementProxyCommon#p35d8f900d1c511e1800000215ad4efdf> ;
+                                     schema:value  "Pfeiler A20"
+                                   ] ;
+        props:reference            [ schema:value
+                          "Pfeiler A20" ] ;
+        props:width                [ schema:value
+                          "6.05643360821916"^^xsd:double ] ;
+        owl:sameAs                 inst:IfcBuildingElementProxy_3321 .
+
+inst:buildingelement_78dded2d-d914-4e44-8780-039dd3c95eb1
+        a                          bot:Element ;
+        props:batid                [ schema:value
+                          "132122" ] ;
+        props:globalIdIfcRoot      [ schema:value
+                          "1utUqjsHHEH8U00vtJoLwn" ] ;
+        props:nameIfcRoot          [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte:Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte 1,10%:132122" ] ;
+        props:objectTypeIfcObject  [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte:Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte 1,10%" ] ;
+        props:reference            [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte 1,10%" ] ;
+        props:reference            [ rdfs:seeAlso  <https://www.linkedbuildingdata.net/IFC4-PSD/Pset_BuildingElementProxyCommon#p35d8f900d1c511e1800000215ad4efdf> ;
+                                     schema:value  "Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte 1,10%"
+                                   ] ;
+        owl:sameAs                 inst:IfcBuildingElementProxy_962681 .
+
+inst:buildingelement_e2c0ef38-033c-43c9-ae00-a031dfb6b208
+        a                          bot:Element ;
+        props:batid                [ schema:value
+                          "137789" ] ;
+        props:globalIdIfcRoot      [ schema:value
+                          "3YmEyu0pn3oQu0e37Vjh88" ] ;
+        props:nameIfcRoot          [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte:Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte 1,95%:137789" ] ;
+        props:objectTypeIfcObject  [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte:Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte 1,95%" ] ;
+        props:reference            [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte 1,95%" ] ;
+        props:reference            [ rdfs:seeAlso  <https://www.linkedbuildingdata.net/IFC4-PSD/Pset_BuildingElementProxyCommon#p35d8f900d1c511e1800000215ad4efdf> ;
+                                     schema:value  "Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte 1,95%"
+                                   ] ;
+        owl:sameAs                 inst:IfcBuildingElementProxy_3106377 .
+
+inst:buildingelement_e2c0ef38-033c-43c9-ae00-a031dfb6b254
+        a                          bot:Element ;
+        props:batid                [ schema:value
+                          "137825" ] ;
+        props:globalIdIfcRoot      [ schema:value
+                          "3YmEyu0pn3oQu0e37Vjh9K" ] ;
+        props:nameIfcRoot          [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte:Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte 1,40%:137825" ] ;
+        props:objectTypeIfcObject  [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte:Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte 1,40%" ] ;
+        props:reference            [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte 1,40%" ] ;
+        props:reference            [ rdfs:seeAlso  <https://www.linkedbuildingdata.net/IFC4-PSD/Pset_BuildingElementProxyCommon#p35d8f900d1c511e1800000215ad4efdf> ;
+                                     schema:value  "Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte 1,40%"
+                                   ] ;
+        owl:sameAs                 inst:IfcBuildingElementProxy_3581683 .
+
+inst:buildingelement_78dded2d-d914-4e44-8780-039dd3c95950
+        a                          bot:Element ;
+        props:batid                [ schema:value
+                          "132091" ] ;
+        props:globalIdIfcRoot      [ schema:value
+                          "1utUqjsHHEH8U00vtJoLbG" ] ;
+        props:nameIfcRoot          [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte:Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte 0,58%:132091" ] ;
+        props:objectTypeIfcObject  [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte:Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte 0,58%" ] ;
+        props:reference            [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte 0,58%" ] ;
+        props:reference            [ rdfs:seeAlso  <https://www.linkedbuildingdata.net/IFC4-PSD/Pset_BuildingElementProxyCommon#p35d8f900d1c511e1800000215ad4efdf> ;
+                                     schema:value  "Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte 0,58%"
+                                   ] ;
+        owl:sameAs                 inst:IfcBuildingElementProxy_488273 .
+
+inst:buildingelement_78dded2d-d914-4e44-8780-039dd3c95e93
+        a                          bot:Element ;
+        props:batid                [ schema:value
+                          "132152" ] ;
+        props:globalIdIfcRoot      [ schema:value
+                          "1utUqjsHHEH8U00vtJoLwJ" ] ;
+        props:nameIfcRoot          [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte:Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte 1,50%:132152" ] ;
+        props:objectTypeIfcObject  [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte:Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte 1,50%" ] ;
+        props:reference            [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte 1,50%" ] ;
+        props:reference            [ rdfs:seeAlso  <https://www.linkedbuildingdata.net/IFC4-PSD/Pset_BuildingElementProxyCommon#p35d8f900d1c511e1800000215ad4efdf> ;
+                                     schema:value  "Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte 1,50%"
+                                   ] ;
+        owl:sameAs                 inst:IfcBuildingElementProxy_1437209 .
+
+inst:buildingelement_e2c0ef38-033c-43c9-ae00-a031dfb6b2b7
+        a                          bot:Element ;
+        props:batid                [ schema:value
+                          "137858" ] ;
+        props:globalIdIfcRoot      [ schema:value
+                          "3YmEyu0pn3oQu0e37VjhAt" ] ;
+        props:nameIfcRoot          [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte:Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte 1,01%:137858" ] ;
+        props:objectTypeIfcObject  [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte:Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte 1,01%" ] ;
+        props:reference            [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte 1,01%" ] ;
+        props:reference            [ rdfs:seeAlso  <https://www.linkedbuildingdata.net/IFC4-PSD/Pset_BuildingElementProxyCommon#p35d8f900d1c511e1800000215ad4efdf> ;
+                                     schema:value  "Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte 1,01%"
+                                   ] ;
+        owl:sameAs                 inst:IfcBuildingElementProxy_4057020 .
+
+inst:buildingelement_e2c0ef38-033c-43c9-ae00-a031dfb6b267
+        a                          bot:Element ;
+        props:batid                [ schema:value
+                          "137810" ] ;
+        props:globalIdIfcRoot      [ schema:value
+                          "3YmEyu0pn3oQu0e37Vjh9d" ] ;
+        props:nameIfcRoot          [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte:Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte 1,65%:137810" ] ;
+        props:objectTypeIfcObject  [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte:Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte 1,65%" ] ;
+        props:reference            [ rdfs:seeAlso  <https://www.linkedbuildingdata.net/IFC4-PSD/Pset_BuildingElementProxyCommon#p35d8f900d1c511e1800000215ad4efdf> ;
+                                     schema:value  "Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte 1,65%"
+                                   ] ;
+        props:reference            [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte 1,65%" ] ;
+        owl:sameAs                 inst:IfcBuildingElementProxy_3344109 .
+
+inst:buildingelement_78dded2d-d914-4e44-8780-039dd3c95eef
+        a                          bot:Element ;
+        props:batid                [ schema:value
+                          "132164" ] ;
+        props:globalIdIfcRoot      [ schema:value
+                          "1utUqjsHHEH8U00vtJoLxl" ] ;
+        props:nameIfcRoot          [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte:Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte 1,65%:132164" ] ;
+        props:objectTypeIfcObject  [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte:Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte 1,65%" ] ;
+        props:reference            [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte 1,65%" ] ;
+        props:reference            [ rdfs:seeAlso  <https://www.linkedbuildingdata.net/IFC4-PSD/Pset_BuildingElementProxyCommon#p35d8f900d1c511e1800000215ad4efdf> ;
+                                     schema:value  "Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte 1,65%"
+                                   ] ;
+        owl:sameAs                 inst:IfcBuildingElementProxy_1674437 .
+
+inst:buildingelement_3a64da00-f073-418e-8d87-0d73841c3059
+        a                          bot:Element ;
+        props:batid                [ schema:value
+                          "79701" ] ;
+        props:globalIdIfcRoot      [ schema:value
+                          "0wPDe0y7D1Zes73NE4731P" ] ;
+        props:nameIfcRoot          [ schema:value
+                          "Kappe \\X2\\00DC\\X0\\berbau Nord:Kappe \\X2\\00DC\\X0\\berbau Nord:79701" ] ;
+        props:objectTypeIfcObject  [ schema:value
+                          "Kappe \\X2\\00DC\\X0\\berbau Nord:Kappe \\X2\\00DC\\X0\\berbau Nord" ] ;
+        props:reference            [ rdfs:seeAlso  <https://www.linkedbuildingdata.net/IFC4-PSD/Pset_BuildingElementProxyCommon#p35d8f900d1c511e1800000215ad4efdf> ;
+                                     schema:value  "Kappe \\X2\\00DC\\X0\\berbau Nord"
+                                   ] ;
+        props:reference            [ schema:value
+                          "Kappe \\X2\\00DC\\X0\\berbau Nord" ] ;
+        owl:sameAs                 inst:IfcBuildingElementProxy_11759 .
+
+inst:buildingelement_e1d42e4a-8da2-40d2-9545-0c7cb9856a86
+        a                          bot:Element ;
+        props:batid                [ schema:value
+                          "13518" ] ;
+        props:globalIdIfcRoot      [ schema:value
+                          "3Xr2vAZQ90qfL537ovXMg6" ] ;
+        props:nameIfcRoot          [ schema:value
+                          "Fundament A20:Fundament A20:13518" ] ;
+        props:objectTypeIfcObject  [ schema:value
+                          "Fundament A20:Fundament A20" ] ;
+        props:reference            [ rdfs:seeAlso  <https://www.linkedbuildingdata.net/IFC4-PSD/Pset_BuildingElementProxyCommon#p35d8f900d1c511e1800000215ad4efdf> ;
+                                     schema:value  "Fundament A20"
+                                   ] ;
+        props:reference            [ schema:value
+                          "Fundament A20" ] ;
+        owl:sameAs                 inst:IfcBuildingElementProxy_3272 .
+
+inst:buildingelement_e2c0ef38-033c-43c9-ae00-a031dfb6b27a
+        a                          bot:Element ;
+        props:batid                [ schema:value
+                          "137807" ] ;
+        props:globalIdIfcRoot      [ schema:value
+                          "3YmEyu0pn3oQu0e37Vjh9w" ] ;
+        props:nameIfcRoot          [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte:Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte 1,65%:137807" ] ;
+        props:objectTypeIfcObject  [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte:Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte 1,65%" ] ;
+        props:reference            [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte 1,65%" ] ;
+        props:reference            [ rdfs:seeAlso  <https://www.linkedbuildingdata.net/IFC4-PSD/Pset_BuildingElementProxyCommon#p35d8f900d1c511e1800000215ad4efdf> ;
+                                     schema:value  "Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte 1,65%"
+                                   ] ;
+        owl:sameAs                 inst:IfcBuildingElementProxy_3344086 .
+
+inst:buildingelement_78dded2d-d914-4e44-8780-039dd3c95ea5
+        a                          bot:Element ;
+        props:batid                [ schema:value
+                          "132110" ] ;
+        props:globalIdIfcRoot      [ schema:value
+                          "1utUqjsHHEH8U00vtJoLwb" ] ;
+        props:nameIfcRoot          [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte:Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte 0,58%:132110" ] ;
+        props:objectTypeIfcObject  [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte:Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte 0,58%" ] ;
+        props:reference            [ rdfs:seeAlso  <https://www.linkedbuildingdata.net/IFC4-PSD/Pset_BuildingElementProxyCommon#p35d8f900d1c511e1800000215ad4efdf> ;
+                                     schema:value  "Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte 0,58%"
+                                   ] ;
+        props:reference            [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte 0,58%" ] ;
+        owl:sameAs                 inst:IfcBuildingElementProxy_488343 .
+
+inst:buildingelement_78dded2d-d914-4e44-8780-039dd3c95e87
+        a                          bot:Element ;
+        props:batid                [ schema:value
+                          "132140" ] ;
+        props:globalIdIfcRoot      [ schema:value
+                          "1utUqjsHHEH8U00vtJoLw7" ] ;
+        props:nameIfcRoot          [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte:Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte 1,30%:132140" ] ;
+        props:objectTypeIfcObject  [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte:Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte 1,30%" ] ;
+        props:reference            [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte 1,30%" ] ;
+        props:reference            [ rdfs:seeAlso  <https://www.linkedbuildingdata.net/IFC4-PSD/Pset_BuildingElementProxyCommon#p35d8f900d1c511e1800000215ad4efdf> ;
+                                     schema:value  "Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte 1,30%"
+                                   ] ;
+        owl:sameAs                 inst:IfcBuildingElementProxy_1200005 .
+
+inst:buildingelement_78dded2d-d914-4e44-8780-039dd3c95eea
+        a                          bot:Element ;
+        props:batid                [ schema:value
+                          "132161" ] ;
+        props:globalIdIfcRoot      [ schema:value
+                          "1utUqjsHHEH8U00vtJoLxg" ] ;
+        props:nameIfcRoot          [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte:Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte 1,65%:132161" ] ;
+        props:objectTypeIfcObject  [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte:Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte 1,65%" ] ;
+        props:reference            [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte 1,65%" ] ;
+        props:reference            [ rdfs:seeAlso  <https://www.linkedbuildingdata.net/IFC4-PSD/Pset_BuildingElementProxyCommon#p35d8f900d1c511e1800000215ad4efdf> ;
+                                     schema:value  "Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte 1,65%"
+                                   ] ;
+        owl:sameAs                 inst:IfcBuildingElementProxy_1674413 .
+
+inst:buildingelement_ec58c491-5aad-416c-94b5-1c58459b2843
+        a                          bot:Element ;
+        props:batid                [ schema:value
+                          "66496" ] ;
+        props:globalIdIfcRoot      [ schema:value
+                          "3iMCIHMgr1R9Ir75X5coX3" ] ;
+        props:nameIfcRoot          [ schema:value
+                          "\\X2\\00DC\\X0\\berbau:\\X2\\00DC\\X0\\berbau:66496" ] ;
+        props:objectTypeIfcObject  [ schema:value
+                          "\\X2\\00DC\\X0\\berbau:\\X2\\00DC\\X0\\berbau" ] ;
+        props:reference            [ rdfs:seeAlso  <https://www.linkedbuildingdata.net/IFC4-PSD/Pset_BuildingElementProxyCommon#p35d8f900d1c511e1800000215ad4efdf> ;
+                                     schema:value  "\\X2\\00DC\\X0\\berbau"
+                                   ] ;
+        props:reference            [ schema:value
+                          "\\X2\\00DC\\X0\\berbau" ] ;
+        owl:sameAs                 inst:IfcBuildingElementProxy_10802 .
+
+inst:buildingelement_e2c0ef38-033c-43c9-ae00-a031dfb6b20f
+        a                          bot:Element ;
+        props:batid                [ schema:value
+                          "137786" ] ;
+        props:globalIdIfcRoot      [ schema:value
+                          "3YmEyu0pn3oQu0e37Vjh8F" ] ;
+        props:nameIfcRoot          [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte:Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte 1,95%:137786" ] ;
+        props:objectTypeIfcObject  [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte:Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte 1,95%" ] ;
+        props:reference            [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte 1,95%" ] ;
+        props:reference            [ rdfs:seeAlso  <https://www.linkedbuildingdata.net/IFC4-PSD/Pset_BuildingElementProxyCommon#p35d8f900d1c511e1800000215ad4efdf> ;
+                                     schema:value  "Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte 1,95%"
+                                   ] ;
+        owl:sameAs                 inst:IfcBuildingElementProxy_3106353 .
+
+inst:buildingelement_78dded2d-d914-4e44-8780-039dd3c95ea0
+        a                          bot:Element ;
+        props:batid                [ schema:value
+                          "132107" ] ;
+        props:globalIdIfcRoot      [ schema:value
+                          "1utUqjsHHEH8U00vtJoLwW" ] ;
+        props:nameIfcRoot          [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte:Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte 0,58%:132107" ] ;
+        props:objectTypeIfcObject  [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte:Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte 0,58%" ] ;
+        props:reference            [ rdfs:seeAlso  <https://www.linkedbuildingdata.net/IFC4-PSD/Pset_BuildingElementProxyCommon#p35d8f900d1c511e1800000215ad4efdf> ;
+                                     schema:value  "Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte 0,58%"
+                                   ] ;
+        props:reference            [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte 0,58%" ] ;
+        owl:sameAs                 inst:IfcBuildingElementProxy_488320 .
+
+inst:buildingelement_e1d42e4a-8da2-40d2-9545-0c7cb9856eda
+        a                          bot:Element ;
+        props:batid                [ schema:value
+                          "12434" ] ;
+        props:globalIdIfcRoot      [ schema:value
+                          "3Xr2vAZQ90qfL537ovXMxQ" ] ;
+        props:nameIfcRoot          [ schema:value
+                          "Fundament A10:Fundament A10:12434" ] ;
+        props:objectTypeIfcObject  [ schema:value
+                          "Fundament A10:Fundament A10" ] ;
+        props:reference            [ rdfs:seeAlso  <https://www.linkedbuildingdata.net/IFC4-PSD/Pset_BuildingElementProxyCommon#p35d8f900d1c511e1800000215ad4efdf> ;
+                                     schema:value  "Fundament A10"
+                                   ] ;
+        props:reference            [ schema:value
+                          "Fundament A10" ] ;
+        owl:sameAs                 inst:IfcBuildingElementProxy_3150 .
+
+inst:buildingelement_e2c0ef38-033c-43c9-ae00-a031dfb6b2be
+        a                          bot:Element ;
+        props:batid                [ schema:value
+                          "137867" ] ;
+        props:globalIdIfcRoot      [ schema:value
+                          "3YmEyu0pn3oQu0e37VjhA_" ] ;
+        props:nameIfcRoot          [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte:Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte 1,01%:137867" ] ;
+        props:objectTypeIfcObject  [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte:Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte 1,01%" ] ;
+        props:reference            [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte 1,01%" ] ;
+        props:reference            [ rdfs:seeAlso  <https://www.linkedbuildingdata.net/IFC4-PSD/Pset_BuildingElementProxyCommon#p35d8f900d1c511e1800000215ad4efdf> ;
+                                     schema:value  "Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte 1,01%"
+                                   ] ;
+        owl:sameAs                 inst:IfcBuildingElementProxy_4057089 .
+
+inst:buildingelement_b4419de6-2b66-4df1-942e-64ca9c679b37
+        a                          bot:Element ;
+        props:batid                [ schema:value
+                          "18057" ] ;
+        props:globalIdIfcRoot      [ schema:value
+                          "2qGPtcAsPDyPGkPCgSPvit" ] ;
+        props:nameIfcRoot          [ schema:value
+                          "Widerlager A10:Widerlager A10:18057" ] ;
+        props:objectTypeIfcObject  [ schema:value
+                          "Widerlager A10:Widerlager A10" ] ;
+        props:reference            [ rdfs:seeAlso  <https://www.linkedbuildingdata.net/IFC4-PSD/Pset_BuildingElementProxyCommon#p35d8f900d1c511e1800000215ad4efdf> ;
+                                     schema:value  "Widerlager A10"
+                                   ] ;
+        props:reference            [ schema:value
+                          "Widerlager A10" ] ;
+        owl:sameAs                 inst:IfcBuildingElementProxy_3958 .
+
+inst:buildingelement_e2c0ef38-033c-43c9-ae00-a031dfb6b275
+        a                          bot:Element ;
+        props:batid                [ schema:value
+                          "137792" ] ;
+        props:globalIdIfcRoot      [ schema:value
+                          "3YmEyu0pn3oQu0e37Vjh9r" ] ;
+        props:nameIfcRoot          [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte:Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte 1,95%:137792" ] ;
+        props:objectTypeIfcObject  [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte:Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte 1,95%" ] ;
+        props:reference            [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte 1,95%" ] ;
+        props:reference            [ rdfs:seeAlso  <https://www.linkedbuildingdata.net/IFC4-PSD/Pset_BuildingElementProxyCommon#p35d8f900d1c511e1800000215ad4efdf> ;
+                                     schema:value  "Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte 1,95%"
+                                   ] ;
+        owl:sameAs                 inst:IfcBuildingElementProxy_3106400 .
+
+inst:buildingelement_78dded2d-d914-4e44-8780-039dd3c95efd
+        a                          bot:Element ;
+        props:batid                [ schema:value
+                          "132182" ] ;
+        props:globalIdIfcRoot      [ schema:value
+                          "1utUqjsHHEH8U00vtJoLxz" ] ;
+        props:nameIfcRoot          [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte:Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte 1,90%:132182" ] ;
+        props:objectTypeIfcObject  [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte:Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte 1,90%" ] ;
+        props:reference            [ rdfs:seeAlso  <https://www.linkedbuildingdata.net/IFC4-PSD/Pset_BuildingElementProxyCommon#p35d8f900d1c511e1800000215ad4efdf> ;
+                                     schema:value  "Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte 1,90%"
+                                   ] ;
+        props:reference            [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte 1,90%" ] ;
+        owl:sameAs                 inst:IfcBuildingElementProxy_2148904 .
+
+inst:buildingelement_e2c0ef38-033c-43c9-ae00-a031dfb6b243
+        a                          bot:Element ;
+        props:batid                [ schema:value
+                          "137846" ] ;
+        props:globalIdIfcRoot      [ schema:value
+                          "3YmEyu0pn3oQu0e37Vjh93" ] ;
+        props:nameIfcRoot          [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte:Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte 1,25%:137846" ] ;
+        props:objectTypeIfcObject  [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte:Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte 1,25%" ] ;
+        props:reference            [ rdfs:seeAlso  <https://www.linkedbuildingdata.net/IFC4-PSD/Pset_BuildingElementProxyCommon#p35d8f900d1c511e1800000215ad4efdf> ;
+                                     schema:value  "Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte 1,25%"
+                                   ] ;
+        props:reference            [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte 1,25%" ] ;
+        owl:sameAs                 inst:IfcBuildingElementProxy_3819386 .
+
+inst:buildingelement_78dded2d-d914-4e44-8780-039dd3c95e82
+        a                          bot:Element ;
+        props:batid                [ schema:value
+                          "132137" ] ;
+        props:globalIdIfcRoot      [ schema:value
+                          "1utUqjsHHEH8U00vtJoLw2" ] ;
+        props:nameIfcRoot          [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte:Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte 1,30%:132137" ] ;
+        props:objectTypeIfcObject  [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte:Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte 1,30%" ] ;
+        props:reference            [ rdfs:seeAlso  <https://www.linkedbuildingdata.net/IFC4-PSD/Pset_BuildingElementProxyCommon#p35d8f900d1c511e1800000215ad4efdf> ;
+                                     schema:value  "Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte 1,30%"
+                                   ] ;
+        props:reference            [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte 1,30%" ] ;
+        owl:sameAs                 inst:IfcBuildingElementProxy_1199982 .
+
+inst:buildingelement_e2c0ef38-033c-43c9-ae00-a031dfb6b26e
+        a                          bot:Element ;
+        props:batid                [ schema:value
+                          "137819" ] ;
+        props:globalIdIfcRoot      [ schema:value
+                          "3YmEyu0pn3oQu0e37Vjh9k" ] ;
+        props:nameIfcRoot          [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte:Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte 1,40%:137819" ] ;
+        props:objectTypeIfcObject  [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte:Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte 1,40%" ] ;
+        props:reference            [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte 1,40%" ] ;
+        props:reference            [ rdfs:seeAlso  <https://www.linkedbuildingdata.net/IFC4-PSD/Pset_BuildingElementProxyCommon#p35d8f900d1c511e1800000215ad4efdf> ;
+                                     schema:value  "Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte 1,40%"
+                                   ] ;
+        owl:sameAs                 inst:IfcBuildingElementProxy_3581637 .
+
+inst:buildingelement_4f1c5e37-811c-429e-8ae8-e6037f33724d
+        a                          bot:Element ;
+        props:batid                [ schema:value
+                          "147699" ] ;
+        props:globalIdIfcRoot      [ schema:value
+                          "1F75utWHn2dehevWD$Ct9D" ] ;
+        props:nameIfcRoot          [ schema:value
+                          "Lager A30:Lager A30:147699" ] ;
+        props:objectTypeIfcObject  [ schema:value
+                          "Lager A30:Lager A30" ] ;
+        props:reference            [ rdfs:seeAlso  <https://www.linkedbuildingdata.net/IFC4-PSD/Pset_BuildingElementProxyCommon#p35d8f900d1c511e1800000215ad4efdf> ;
+                                     schema:value  "Lager A30"
+                                   ] ;
+        props:reference            [ schema:value
+                          "Lager A30" ] ;
+        owl:sameAs                 inst:IfcBuildingElementProxy_4295037 .
+
+inst:storey_49c24f44-9e59-46e7-a811-220db5188ac1
+        a                          bot:Storey ;
+        props:aboveGround          [ rdfs:seeAlso  <https://www.linkedbuildingdata.net/IFC4-PSD/Pset_BuildingStoreyCommon#p89e3dd80d1c511e1800000215ad4efdf> ;
+                                     schema:value  <https://w3id.org/express#UNKNOWN>
+                                   ] ;
+        props:elevationIfcBuildingStorey
+                [ schema:value  "0."^^xsd:double ] ;
+        props:globalIdIfcRoot      [ schema:value
+                          "19maz4dbb6vwWH8Wsr68h1" ] ;
+        props:longNameIfcSpatialStructureElement
+                [ schema:value  "Basis 555,10" ] ;
+        props:name                 [ rdfs:seeAlso  <https://www.linkedbuildingdata.net/IFC4-PSD/Pset_AirSideSystemInformation#pc9a6c700d1bd11e1800000215ad4efdf> ;
+                                     schema:value  "Basis 555,10"
+                                   ] ;
+        props:name                 [ schema:value
+                          "Basis 555,10" ] ;
+        props:nameIfcRoot          [ schema:value
+                          "Basis 555,10" ] ;
+        props:objectTypeIfcObject  [ schema:value
+                          "Ebene:Ebene 1" ] ;
+        owl:sameAs                 inst:IfcBuildingStorey_138 ;
+        bot:containsElement        inst:buildingelement_e2c0ef38-033c-43c9-ae00-a031dfb6b217 , inst:buildingelement_e2c0ef38-033c-43c9-ae00-a031dfb6b2b0 , inst:buildingelement_e2c0ef38-033c-43c9-ae00-a031dfb6b2a4 , inst:buildingelement_e2c0ef38-033c-43c9-ae00-a031dfb6b26d , inst:buildingelement_e2c0ef38-033c-43c9-ae00-a031dfb6b273 , inst:buildingelement_78dded2d-d914-4e44-8780-039dd3c95eec , inst:buildingelement_78dded2d-d914-4e44-8780-039dd3c95e8b , inst:buildingelement_c2771195-7335-4bc0-9205-2820eccf6b24 , inst:buildingelement_e1d42e4a-8da2-40d2-9545-0c7cb9856a86 , inst:buildingelement_e2c0ef38-033c-43c9-ae00-a031dfb6b24c , inst:buildingelement_270f415c-47f1-493f-8adb-420fa881ab20 , inst:buildingelement_e2c0ef38-033c-43c9-ae00-a031dfb6b2be , inst:buildingelement_e2c0ef38-033c-43c9-ae00-a031dfb6b27c , inst:buildingelement_e2c0ef38-033c-43c9-ae00-a031dfb6b202 , inst:buildingelement_270f415c-47f1-493f-8adb-420fa881b74d , inst:buildingelement_78dded2d-d914-4e44-8780-039dd3c95e87 , inst:buildingelement_d5e704bb-4baa-43df-b5e9-768cad1de811 , inst:buildingelement_78dded2d-d914-4e44-8780-039dd3c95950 , inst:buildingelement_4f1c5e37-811c-429e-8ae8-e6037f33724d , inst:buildingelement_b4419de6-2b66-4df1-942e-64ca9c679b37 , inst:buildingelement_78dded2d-d914-4e44-8780-039dd3c95ee6 , inst:buildingelement_e1d42e4a-8da2-40d2-9545-0c7cb9856eda , inst:buildingelement_270f415c-47f1-493f-8adb-420fa881b210 , inst:buildingelement_78dded2d-d914-4e44-8780-039dd3c95908 , inst:buildingelement_e2c0ef38-033c-43c9-ae00-a031dfb6b276 , inst:slab_4f1c5e37-811c-429e-8ae8-e6037f330e86 , inst:buildingelement_78dded2d-d914-4e44-8780-039dd3c95eb6 , inst:buildingelement_e2c0ef38-033c-43c9-ae00-a031dfb6b137 , inst:buildingelement_78dded2d-d914-4e44-8780-039dd3c95ece , inst:buildingelement_e2c0ef38-033c-43c9-ae00-a031dfb6b26b , inst:buildingelement_78dded2d-d914-4e44-8780-039dd3c95eef , inst:buildingelement_78dded2d-d914-4e44-8780-039dd3c95ef2 , inst:buildingelement_e2c0ef38-033c-43c9-ae00-a031dfb6b20f , inst:buildingelement_270f415c-47f1-493f-8adb-420fa881a194 , inst:buildingelement_e2c0ef38-033c-43c9-ae00-a031dfb6b246 , inst:buildingelement_e2c0ef38-033c-43c9-ae00-a031dfb6b252 , inst:buildingelement_e2c0ef38-033c-43c9-ae00-a031dfb6b267 , inst:buildingelement_e2c0ef38-033c-43c9-ae00-a031dfb6b251 , inst:buildingelement_e2c0ef38-033c-43c9-ae00-a031dfb6b2bd , inst:buildingelement_78dded2d-d914-4e44-8780-039dd3c95eb1 , inst:buildingelement_78dded2d-d914-4e44-8780-039dd3c95ec9 , inst:buildingelement_e2c0ef38-033c-43c9-ae00-a031dfb6b204 , inst:buildingelement_bae0fd65-aae8-4a94-97d8-46b63b85dd11 , inst:buildingelement_e2c0ef38-033c-43c9-ae00-a031dfb6852d , inst:buildingelement_e2c0ef38-033c-43c9-ae00-a031dfb6b2bb , inst:buildingelement_e2c0ef38-033c-43c9-ae00-a031dfb6b2b7 , inst:buildingelement_78dded2d-d914-4e44-8780-039dd3c95ea5 , inst:buildingelement_3a64da00-f073-418e-8d87-0d73841c3059 , inst:buildingelement_78dded2d-d914-4e44-8780-039dd3c95efb , inst:buildingelement_e2c0ef38-033c-43c9-ae00-a031dfb6b201 , inst:buildingelement_78dded2d-d914-4e44-8780-039dd3c95e99 , inst:slab_4f1c5e37-811c-429e-8ae8-e6037f330ea9 , inst:buildingelement_78dded2d-d914-4e44-8780-039dd3c95ebf , inst:buildingelement_78dded2d-d914-4e44-8780-039dd3c95ee1 , inst:buildingelement_e2c0ef38-033c-43c9-ae00-a031dfb6b208 , inst:buildingelement_78dded2d-d914-4e44-8780-039dd3c95ea3 , inst:buildingelement_78dded2d-d914-4e44-8780-039dd3c95e95 , inst:buildingelement_78dded2d-d914-4e44-8780-039dd3c95ef8 , inst:buildingelement_7345dfeb-582f-40d2-b3b1-5daf701d04d4 , inst:buildingelement_78dded2d-d914-4e44-8780-039dd3c95eba , inst:buildingelement_78dded2d-d914-4e44-8780-039dd3c95ef4 , inst:stair_e4efba06-c78c-4ecb-8575-b4a4f3c25a3b , inst:buildingelement_e2c0ef38-033c-43c9-ae00-a031dfb6b254 , inst:buildingelement_e2c0ef38-033c-43c9-ae00-a031dfb6b275 , inst:buildingelement_e2c0ef38-033c-43c9-ae00-a031dfb6b249 , inst:stair_d33b97fe-8d52-4a16-b1d2-91572963d96a , inst:buildingelement_e2c0ef38-033c-43c9-ae00-a031dfb6b26e , inst:buildingelement_78dded2d-d914-4e44-8780-039dd3c95ea0 , inst:buildingelement_78dded2d-d914-4e44-8780-039dd3c95e93 , inst:buildingelement_78dded2d-d914-4e44-8780-039dd3c95e90 , inst:buildingelement_bd8bbf35-6e86-4148-8868-9d6b8eaa1f5a , inst:buildingelement_78dded2d-d914-4e44-8780-039dd3c95eea , inst:buildingelement_e2c0ef38-033c-43c9-ae00-a031dfb6b245 , inst:buildingelement_dec2bd4f-b139-4364-900e-357613ea04d6 , inst:buildingelement_78dded2d-d914-4e44-8780-039dd3c95e82 , inst:buildingelement_e2c0ef38-033c-43c9-ae00-a031dfb6b260 , inst:buildingelement_b2b22d62-5b8e-42af-ba99-9fddd5a722ae , inst:buildingelement_e2c0ef38-033c-43c9-ae00-a031dfb6b24a , inst:buildingelement_e2c0ef38-033c-43c9-ae00-a031dfb6b25f , inst:buildingelement_e2c0ef38-033c-43c9-ae00-a031dfb6b27a , inst:buildingelement_78dded2d-d914-4e44-8780-039dd3c95e84 , inst:buildingelement_78dded2d-d914-4e44-8780-039dd3c95efd , inst:buildingelement_e2c0ef38-033c-43c9-ae00-a031dfb6b243 , inst:buildingelement_78dded2d-d914-4e44-8780-039dd3c95e88 , inst:buildingelement_78dded2d-d914-4e44-8780-039dd3c95e9e , inst:buildingelement_e2c0ef38-033c-43c9-ae00-a031dfb6b258 , inst:buildingelement_e2c0ef38-033c-43c9-ae00-a031dfb6b279 , inst:buildingelement_78dded2d-d914-4e44-8780-039dd3c95ec3 , inst:buildingelement_78dded2d-d914-4e44-8780-039dd3c95ef7 , inst:buildingelement_4f1c5e37-811c-429e-8ae8-e6037f330c76 , inst:slab_c2771195-7335-4bc0-9205-2820eccf6a7f , inst:buildingelement_78dded2d-d914-4e44-8780-039dd3c95ebc , inst:buildingelement_78dded2d-d914-4e44-8780-039dd3c95e8d , inst:buildingelement_ec58c491-5aad-416c-94b5-1c58459b2843 , inst:buildingelement_4f1c5e37-811c-429e-8ae8-e6037f337660 .
+
+inst:buildingelement_78dded2d-d914-4e44-8780-039dd3c95e95
+        a                          bot:Element ;
+        props:batid                [ schema:value
+                          "132158" ] ;
+        props:globalIdIfcRoot      [ schema:value
+                          "1utUqjsHHEH8U00vtJoLwL" ] ;
+        props:nameIfcRoot          [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte:Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte 1,50%:132158" ] ;
+        props:objectTypeIfcObject  [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte:Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte 1,50%" ] ;
+        props:reference            [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte 1,50%" ] ;
+        props:reference            [ rdfs:seeAlso  <https://www.linkedbuildingdata.net/IFC4-PSD/Pset_BuildingElementProxyCommon#p35d8f900d1c511e1800000215ad4efdf> ;
+                                     schema:value  "Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte 1,50%"
+                                   ] ;
+        owl:sameAs                 inst:IfcBuildingElementProxy_1437255 .
+
+inst:buildingelement_78dded2d-d914-4e44-8780-039dd3c95ef8
+        a                          bot:Element ;
+        props:batid                [ schema:value
+                          "132179" ] ;
+        props:globalIdIfcRoot      [ schema:value
+                          "1utUqjsHHEH8U00vtJoLxu" ] ;
+        props:nameIfcRoot          [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte:Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte 1,90%:132179" ] ;
+        props:objectTypeIfcObject  [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte:Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte 1,90%" ] ;
+        props:reference            [ rdfs:seeAlso  <https://www.linkedbuildingdata.net/IFC4-PSD/Pset_BuildingElementProxyCommon#p35d8f900d1c511e1800000215ad4efdf> ;
+                                     schema:value  "Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte 1,90%"
+                                   ] ;
+        props:reference            [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte 1,90%" ] ;
+        owl:sameAs                 inst:IfcBuildingElementProxy_2148880 .
+
+inst:buildingelement_78dded2d-d914-4e44-8780-039dd3c95ebf
+        a                          bot:Element ;
+        props:batid                [ schema:value
+                          "132116" ] ;
+        props:globalIdIfcRoot      [ schema:value
+                          "1utUqjsHHEH8U00vtJoLw$" ] ;
+        props:nameIfcRoot          [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte:Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte 0,9%:132116" ] ;
+        props:objectTypeIfcObject  [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte:Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte 0,9%" ] ;
+        props:reference            [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte 0,9%" ] ;
+        props:reference            [ rdfs:seeAlso  <https://www.linkedbuildingdata.net/IFC4-PSD/Pset_BuildingElementProxyCommon#p35d8f900d1c511e1800000215ad4efdf> ;
+                                     schema:value  "Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte 0,9%"
+                                   ] ;
+        owl:sameAs                 inst:IfcBuildingElementProxy_725519 .
+
+inst:buildingelement_e2c0ef38-033c-43c9-ae00-a031dfb6b251
+        a                          bot:Element ;
+        props:batid                [ schema:value
+                          "137828" ] ;
+        props:globalIdIfcRoot      [ schema:value
+                          "3YmEyu0pn3oQu0e37Vjh9H" ] ;
+        props:nameIfcRoot          [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte:Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte 1,40%:137828" ] ;
+        props:objectTypeIfcObject  [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte:Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte 1,40%" ] ;
+        props:reference            [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte 1,40%" ] ;
+        props:reference            [ rdfs:seeAlso  <https://www.linkedbuildingdata.net/IFC4-PSD/Pset_BuildingElementProxyCommon#p35d8f900d1c511e1800000215ad4efdf> ;
+                                     schema:value  "Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte 1,40%"
+                                   ] ;
+        owl:sameAs                 inst:IfcBuildingElementProxy_3581706 .
+
+inst:buildingelement_d5e704bb-4baa-43df-b5e9-768cad1de811
+        a                          bot:Element ;
+        props:batid                [ schema:value
+                          "133378" ] ;
+        props:globalIdIfcRoot      [ schema:value
+                          "3LvmIxIwf3txNfTeoj7UWH" ] ;
+        props:nameIfcRoot          [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Fallend-Rechts:Gel\\X2\\00E4\\X0\\nder-Fallend-Rechts:133378" ] ;
+        props:objectTypeIfcObject  [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Fallend-Rechts:Gel\\X2\\00E4\\X0\\nder-Fallend-Rechts" ] ;
+        props:reference            [ rdfs:seeAlso  <https://www.linkedbuildingdata.net/IFC4-PSD/Pset_BuildingElementProxyCommon#p35d8f900d1c511e1800000215ad4efdf> ;
+                                     schema:value  "Gel\\X2\\00E4\\X0\\nder-Fallend-Rechts"
+                                   ] ;
+        props:reference            [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Fallend-Rechts" ] ;
+        owl:sameAs                 inst:IfcBuildingElementProxy_2392887 .
+
+inst:buildingelement_78dded2d-d914-4e44-8780-039dd3c95e90
+        a                          bot:Element ;
+        props:batid                [ schema:value
+                          "132155" ] ;
+        props:globalIdIfcRoot      [ schema:value
+                          "1utUqjsHHEH8U00vtJoLwG" ] ;
+        props:nameIfcRoot          [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte:Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte 1,50%:132155" ] ;
+        props:objectTypeIfcObject  [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte:Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte 1,50%" ] ;
+        props:reference            [ rdfs:seeAlso  <https://www.linkedbuildingdata.net/IFC4-PSD/Pset_BuildingElementProxyCommon#p35d8f900d1c511e1800000215ad4efdf> ;
+                                     schema:value  "Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte 1,50%"
+                                   ] ;
+        props:reference            [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte 1,50%" ] ;
+        owl:sameAs                 inst:IfcBuildingElementProxy_1437232 .
+
+inst:buildingelement_e2c0ef38-033c-43c9-ae00-a031dfb6b27c
+        a                          bot:Element ;
+        props:batid                [ schema:value
+                          "137801" ] ;
+        props:globalIdIfcRoot      [ schema:value
+                          "3YmEyu0pn3oQu0e37Vjh9y" ] ;
+        props:nameIfcRoot          [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte:Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte 1,65%:137801" ] ;
+        props:objectTypeIfcObject  [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte:Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte 1,65%" ] ;
+        props:reference            [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte 1,65%" ] ;
+        props:reference            [ rdfs:seeAlso  <https://www.linkedbuildingdata.net/IFC4-PSD/Pset_BuildingElementProxyCommon#p35d8f900d1c511e1800000215ad4efdf> ;
+                                     schema:value  "Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte 1,65%"
+                                   ] ;
+        owl:sameAs                 inst:IfcBuildingElementProxy_3344039 .
+
+inst:buildingelement_e2c0ef38-033c-43c9-ae00-a031dfb6b24a
+        a                          bot:Element ;
+        props:batid                [ schema:value
+                          "137855" ] ;
+        props:globalIdIfcRoot      [ schema:value
+                          "3YmEyu0pn3oQu0e37Vjh9A" ] ;
+        props:nameIfcRoot          [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte:Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte 1,01%:137855" ] ;
+        props:objectTypeIfcObject  [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte:Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte 1,01%" ] ;
+        props:reference            [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte 1,01%" ] ;
+        props:reference            [ rdfs:seeAlso  <https://www.linkedbuildingdata.net/IFC4-PSD/Pset_BuildingElementProxyCommon#p35d8f900d1c511e1800000215ad4efdf> ;
+                                     schema:value  "Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte 1,01%"
+                                   ] ;
+        owl:sameAs                 inst:IfcBuildingElementProxy_4056997 .
+
+inst:buildingelement_78dded2d-d914-4e44-8780-039dd3c95eec
+        a                          bot:Element ;
+        props:batid                [ schema:value
+                          "132167" ] ;
+        props:globalIdIfcRoot      [ schema:value
+                          "1utUqjsHHEH8U00vtJoLxi" ] ;
+        props:nameIfcRoot          [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte:Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte 1,65%:132167" ] ;
+        props:objectTypeIfcObject  [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte:Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte 1,65%" ] ;
+        props:reference            [ rdfs:seeAlso  <https://www.linkedbuildingdata.net/IFC4-PSD/Pset_BuildingElementProxyCommon#p35d8f900d1c511e1800000215ad4efdf> ;
+                                     schema:value  "Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte 1,65%"
+                                   ] ;
+        props:reference            [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte 1,65%" ] ;
+        owl:sameAs                 inst:IfcBuildingElementProxy_1674460 .
+
+inst:buildingelement_78dded2d-d914-4e44-8780-039dd3c95eba
+        a                          bot:Element ;
+        props:batid                [ schema:value
+                          "132113" ] ;
+        props:globalIdIfcRoot      [ schema:value
+                          "1utUqjsHHEH8U00vtJoLww" ] ;
+        props:nameIfcRoot          [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte:Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte 0,9%:132113" ] ;
+        props:objectTypeIfcObject  [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte:Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte 0,9%" ] ;
+        props:reference            [ rdfs:seeAlso  <https://www.linkedbuildingdata.net/IFC4-PSD/Pset_BuildingElementProxyCommon#p35d8f900d1c511e1800000215ad4efdf> ;
+                                     schema:value  "Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte 0,9%"
+                                   ] ;
+        props:reference            [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte 0,9%" ] ;
+        owl:sameAs                 inst:IfcBuildingElementProxy_725495 .
+
+inst:slab_4f1c5e37-811c-429e-8ae8-e6037f330ea9
+        a                          bot:Element ;
+        props:batid                [ schema:value
+                          "146455" ] ;
+        props:globalIdIfcRoot      [ schema:value
+                          "1F75utWHn2dehevWD$Cmwf" ] ;
+        props:isExternal           [ rdfs:seeAlso  <https://www.linkedbuildingdata.net/IFC4-PSD/Pset_SlabCommon#p347cf000d20811e1800000215ad4efdf> ;
+                                     schema:value  false
+                                   ] ;
+        props:loadBearing          [ rdfs:seeAlso  <https://www.linkedbuildingdata.net/IFC4-PSD/Pset_SlabCommon#p3b0b6780d20811e1800000215ad4efdf> ;
+                                     schema:value  true
+                                   ] ;
+        props:nameIfcRoot          [ schema:value
+                          "Geschossdecke:Geschossdecke 1:146455" ] ;
+        props:objectTypeIfcObject  [ schema:value
+                          "Geschossdecke:Geschossdecke 1" ] ;
+        props:pitchAngle           [ rdfs:seeAlso  <https://www.linkedbuildingdata.net/IFC4-PSD/Pset_SlabCommon#p49598380d20811e1800000215ad4efdf> ;
+                                     schema:value  "0."^^xsd:double
+                                   ] ;
+        props:reference            [ rdfs:seeAlso  <https://www.linkedbuildingdata.net/IFC4-PSD/Pset_SlabCommon#pfaabe980d20711e1800000215ad4efdf> ;
+                                     schema:value  "Geschossdecke 1"
+                                   ] ;
+        props:reference            [ rdfs:seeAlso  <https://www.linkedbuildingdata.net/IFC4-PSD/Pset_ReinforcementBarPitchOfSlab#p4eb2d000d20011e1800000215ad4efdf> ;
+                                     schema:value  "Geschossdecke 1"
+                                   ] ;
+        props:reference            [ schema:value
+                          "Geschossdecke 1" ] ;
+        owl:sameAs                 inst:IfcSlab_4294762 .
+
+inst:buildingelement_270f415c-47f1-493f-8adb-420fa881a194
+        a                          bot:Element ;
+        props:batid                [ schema:value
+                          "83804" ] ;
+        props:globalIdIfcRoot      [ schema:value
+                          "0d3q5SH$59FuhRGW_eWQ6K" ] ;
+        props:nameIfcRoot          [ schema:value
+                          "Kappe A10 Nord:Kappe A10 Nord:83804" ] ;
+        props:objectTypeIfcObject  [ schema:value
+                          "Kappe A10 Nord:Kappe A10 Nord" ] ;
+        props:reference            [ rdfs:seeAlso  <https://www.linkedbuildingdata.net/IFC4-PSD/Pset_BuildingElementProxyCommon#p35d8f900d1c511e1800000215ad4efdf> ;
+                                     schema:value  "Kappe A10 Nord"
+                                   ] ;
+        props:reference            [ schema:value
+                          "Kappe A10 Nord" ] ;
+        owl:sameAs                 inst:IfcBuildingElementProxy_12864 .
+
+inst:buildingelement_e2c0ef38-033c-43c9-ae00-a031dfb6852d
+        a                          bot:Element ;
+        props:batid                [ schema:value
+                          "142616" ] ;
+        props:globalIdIfcRoot      [ schema:value
+                          "3YmEyu0pn3oQu0e37VjeKj" ] ;
+        props:nameIfcRoot          [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Steigend-Rechts:Gel\\X2\\00E4\\X0\\nder-Steigend-Rechts:142616" ] ;
+        props:objectTypeIfcObject  [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Steigend-Rechts:Gel\\X2\\00E4\\X0\\nder-Steigend-Rechts" ] ;
+        props:reference            [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Steigend-Rechts" ] ;
+        props:reference            [ rdfs:seeAlso  <https://www.linkedbuildingdata.net/IFC4-PSD/Pset_BuildingElementProxyCommon#p35d8f900d1c511e1800000215ad4efdf> ;
+                                     schema:value  "Gel\\X2\\00E4\\X0\\nder-Steigend-Rechts"
+                                   ] ;
+        owl:sameAs                 inst:IfcBuildingElementProxy_4065203 .
+
+inst:buildingelement_e2c0ef38-033c-43c9-ae00-a031dfb6b245
+        a                          bot:Element ;
+        props:batid                [ schema:value
+                          "137840" ] ;
+        props:globalIdIfcRoot      [ schema:value
+                          "3YmEyu0pn3oQu0e37Vjh95" ] ;
+        props:nameIfcRoot          [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte:Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte 1,25%:137840" ] ;
+        props:objectTypeIfcObject  [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte:Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte 1,25%" ] ;
+        props:reference            [ rdfs:seeAlso  <https://www.linkedbuildingdata.net/IFC4-PSD/Pset_BuildingElementProxyCommon#p35d8f900d1c511e1800000215ad4efdf> ;
+                                     schema:value  "Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte 1,25%"
+                                   ] ;
+        props:reference            [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte 1,25%" ] ;
+        owl:sameAs                 inst:IfcBuildingElementProxy_3819340 .
+
+inst:buildingelement_dec2bd4f-b139-4364-900e-357613ea04d6
+        a                          bot:Element ;
+        props:batid                [ schema:value
+                          "145271" ] ;
+        props:globalIdIfcRoot      [ schema:value
+                          "3UmhrFiJb3P90EDNOJwWJM" ] ;
+        props:nameIfcRoot          [ schema:value
+                          "Leitplanke Nord:Leitplanke Nord:145271" ] ;
+        props:objectTypeIfcObject  [ schema:value
+                          "Leitplanke Nord:Leitplanke Nord" ] ;
+        props:reference            [ schema:value
+                          "Leitplanke Nord" ] ;
+        props:reference            [ rdfs:seeAlso  <https://www.linkedbuildingdata.net/IFC4-PSD/Pset_BuildingElementProxyCommon#p35d8f900d1c511e1800000215ad4efdf> ;
+                                     schema:value  "Leitplanke Nord"
+                                   ] ;
+        owl:sameAs                 inst:IfcBuildingElementProxy_4180237 .
+
+inst:buildingelement_270f415c-47f1-493f-8adb-420fa881b74d
+        a                          bot:Element ;
+        props:batid                [ schema:value
+                          "86405" ] ;
+        props:globalIdIfcRoot      [ schema:value
+                          "0d3q5SH$59FuhRGW_eWRTD" ] ;
+        props:nameIfcRoot          [ schema:value
+                          "Kappe A30 Nord:Kappe A30 Nord:86405" ] ;
+        props:objectTypeIfcObject  [ schema:value
+                          "Kappe A30 Nord:Kappe A30 Nord" ] ;
+        props:reference            [ rdfs:seeAlso  <https://www.linkedbuildingdata.net/IFC4-PSD/Pset_BuildingElementProxyCommon#p35d8f900d1c511e1800000215ad4efdf> ;
+                                     schema:value  "Kappe A30 Nord"
+                                   ] ;
+        props:reference            [ schema:value
+                          "Kappe A30 Nord" ] ;
+        owl:sameAs                 inst:IfcBuildingElementProxy_13104 .
+
+inst:buildingelement_78dded2d-d914-4e44-8780-039dd3c95e84
+        a                          bot:Element ;
+        props:batid                [ schema:value
+                          "132143" ] ;
+        props:globalIdIfcRoot      [ schema:value
+                          "1utUqjsHHEH8U00vtJoLw4" ] ;
+        props:nameIfcRoot          [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte:Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte 1,30%:132143" ] ;
+        props:objectTypeIfcObject  [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte:Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte 1,30%" ] ;
+        props:reference            [ rdfs:seeAlso  <https://www.linkedbuildingdata.net/IFC4-PSD/Pset_BuildingElementProxyCommon#p35d8f900d1c511e1800000215ad4efdf> ;
+                                     schema:value  "Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte 1,30%"
+                                   ] ;
+        props:reference            [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte 1,30%" ] ;
+        owl:sameAs                 inst:IfcBuildingElementProxy_1200028 .
+
+inst:buildingelement_270f415c-47f1-493f-8adb-420fa881ab20
+        a                          bot:Element ;
+        props:batid                [ schema:value
+                          "85480" ] ;
+        props:globalIdIfcRoot      [ schema:value
+                          "0d3q5SH$59FuhRGW_eWQiW" ] ;
+        props:nameIfcRoot          [ schema:value
+                          "Kappe A10 S\\X2\\00FC\\X0\\d:Kappe A10 S\\X2\\00FC\\X0\\d:85480" ] ;
+        props:objectTypeIfcObject  [ schema:value
+                          "Kappe A10 S\\X2\\00FC\\X0\\d:Kappe A10 S\\X2\\00FC\\X0\\d" ] ;
+        props:reference            [ rdfs:seeAlso  <https://www.linkedbuildingdata.net/IFC4-PSD/Pset_BuildingElementProxyCommon#p35d8f900d1c511e1800000215ad4efdf> ;
+                                     schema:value  "Kappe A10 S\\X2\\00FC\\X0\\d"
+                                   ] ;
+        props:reference            [ schema:value
+                          "Kappe A10 S\\X2\\00FC\\X0\\d" ] ;
+        owl:sameAs                 inst:IfcBuildingElementProxy_12984 .
+
+inst:slab_c2771195-7335-4bc0-9205-2820eccf6a7f
+        a                          bot:Element ;
+        props:batid                [ schema:value
+                          "146193" ] ;
+        props:globalIdIfcRoot      [ schema:value
+                          "32Tn6LSpLBm985A23ipsf$" ] ;
+        props:isExternal           [ rdfs:seeAlso  <https://www.linkedbuildingdata.net/IFC4-PSD/Pset_SlabCommon#p347cf000d20811e1800000215ad4efdf> ;
+                                     schema:value  false
+                                   ] ;
+        props:loadBearing          [ rdfs:seeAlso  <https://www.linkedbuildingdata.net/IFC4-PSD/Pset_SlabCommon#p3b0b6780d20811e1800000215ad4efdf> ;
+                                     schema:value  true
+                                   ] ;
+        props:nameIfcRoot          [ schema:value
+                          "Geschossdecke:Geschossdecke 1:146193" ] ;
+        props:objectTypeIfcObject  [ schema:value
+                          "Geschossdecke:Geschossdecke 1" ] ;
+        props:pitchAngle           [ rdfs:seeAlso  <https://www.linkedbuildingdata.net/IFC4-PSD/Pset_SlabCommon#p49598380d20811e1800000215ad4efdf> ;
+                                     schema:value  "0."^^xsd:double
+                                   ] ;
+        props:reference            [ schema:value
+                          "Geschossdecke 1" ] ;
+        props:reference            [ rdfs:seeAlso  <https://www.linkedbuildingdata.net/IFC4-PSD/Pset_SlabCommon#pfaabe980d20711e1800000215ad4efdf> ;
+                                     schema:value  "Geschossdecke 1"
+                                   ] ;
+        props:reference            [ rdfs:seeAlso  <https://www.linkedbuildingdata.net/IFC4-PSD/Pset_ReinforcementBarPitchOfSlab#p4eb2d000d20011e1800000215ad4efdf> ;
+                                     schema:value  "Geschossdecke 1"
+                                   ] ;
+        owl:sameAs                 inst:IfcSlab_4294711 .
+
+inst:buildingelement_78dded2d-d914-4e44-8780-039dd3c95908
+        a                          bot:Element ;
+        props:batid                [ schema:value
+                          "132003" ] ;
+        props:globalIdIfcRoot      [ schema:value
+                          "1utUqjsHHEH8U00vtJoLa8" ] ;
+        props:nameIfcRoot          [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Fallend-Links:Gel\\X2\\00E4\\X0\\nder-Fallend-Links:132003" ] ;
+        props:objectTypeIfcObject  [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Fallend-Links:Gel\\X2\\00E4\\X0\\nder-Fallend-Links" ] ;
+        props:reference            [ rdfs:seeAlso  <https://www.linkedbuildingdata.net/IFC4-PSD/Pset_BuildingElementProxyCommon#p35d8f900d1c511e1800000215ad4efdf> ;
+                                     schema:value  "Gel\\X2\\00E4\\X0\\nder-Fallend-Links"
+                                   ] ;
+        props:reference            [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Fallend-Links" ] ;
+        owl:sameAs                 inst:IfcBuildingElementProxy_251134 .
+
+inst:buildingelement_e2c0ef38-033c-43c9-ae00-a031dfb6b258
+        a                          bot:Element ;
+        props:batid                [ schema:value
+                          "137837" ] ;
+        props:globalIdIfcRoot      [ schema:value
+                          "3YmEyu0pn3oQu0e37Vjh9O" ] ;
+        props:nameIfcRoot          [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte:Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte 1,25%:137837" ] ;
+        props:objectTypeIfcObject  [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte:Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte 1,25%" ] ;
+        props:reference            [ rdfs:seeAlso  <https://www.linkedbuildingdata.net/IFC4-PSD/Pset_BuildingElementProxyCommon#p35d8f900d1c511e1800000215ad4efdf> ;
+                                     schema:value  "Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte 1,25%"
+                                   ] ;
+        props:reference            [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte 1,25%" ] ;
+        owl:sameAs                 inst:IfcBuildingElementProxy_3819317 .
+
+inst:buildingelement_e2c0ef38-033c-43c9-ae00-a031dfb6b2bb
+        a                          bot:Element ;
+        props:batid                [ schema:value
+                          "137870" ] ;
+        props:globalIdIfcRoot      [ schema:value
+                          "3YmEyu0pn3oQu0e37VjhAx" ] ;
+        props:nameIfcRoot          [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte:Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte 1,01%:137870" ] ;
+        props:objectTypeIfcObject  [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte:Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte 1,01%" ] ;
+        props:reference            [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte 1,01%" ] ;
+        props:reference            [ rdfs:seeAlso  <https://www.linkedbuildingdata.net/IFC4-PSD/Pset_BuildingElementProxyCommon#p35d8f900d1c511e1800000215ad4efdf> ;
+                                     schema:value  "Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte 1,01%"
+                                   ] ;
+        owl:sameAs                 inst:IfcBuildingElementProxy_4057112 .
+
+inst:building_49c24f44-9e59-46e7-a811-220d4ae773bf
+        a                      bot:Building ;
+        props:globalIdIfcRoot  [ schema:value  "19maz4dbb6vwWH8WrAvtE$" ] ;
+        props:isLandmarked     [ rdfs:seeAlso  <https://www.linkedbuildingdata.net/IFC4-PSD/Pset_BuildingCommon#p2a85cd80d1c511e1800000215ad4efdf> ;
+                                 schema:value  <https://w3id.org/express#UNKNOWN>
+                               ] ;
+        props:numberOfStoreys  [ rdfs:seeAlso  <https://www.linkedbuildingdata.net/IFC4-PSD/Pset_BuildingCommon#p1d68de80d1c511e1800000215ad4efdf> ;
+                                 schema:value  1
+                               ] ;
+        owl:sameAs             inst:IfcBuilding_129 ;
+        bot:hasStorey          inst:storey_49c24f44-9e59-46e7-a811-220db5188ac1 .
+
+inst:slab_4f1c5e37-811c-429e-8ae8-e6037f330e86
+        a                          bot:Element ;
+        props:batid                [ schema:value
+                          "146488" ] ;
+        props:globalIdIfcRoot      [ schema:value
+                          "1F75utWHn2dehevWD$Cmw6" ] ;
+        props:isExternal           [ rdfs:seeAlso  <https://www.linkedbuildingdata.net/IFC4-PSD/Pset_SlabCommon#p347cf000d20811e1800000215ad4efdf> ;
+                                     schema:value  false
+                                   ] ;
+        props:loadBearing          [ rdfs:seeAlso  <https://www.linkedbuildingdata.net/IFC4-PSD/Pset_SlabCommon#p3b0b6780d20811e1800000215ad4efdf> ;
+                                     schema:value  true
+                                   ] ;
+        props:nameIfcRoot          [ schema:value
+                          "Geschossdecke:Geschossdecke 1:146488" ] ;
+        props:objectTypeIfcObject  [ schema:value
+                          "Geschossdecke:Geschossdecke 1" ] ;
+        props:pitchAngle           [ rdfs:seeAlso  <https://www.linkedbuildingdata.net/IFC4-PSD/Pset_SlabCommon#p49598380d20811e1800000215ad4efdf> ;
+                                     schema:value  "0."^^xsd:double
+                                   ] ;
+        props:reference            [ schema:value
+                          "Geschossdecke 1" ] ;
+        props:reference            [ rdfs:seeAlso  <https://www.linkedbuildingdata.net/IFC4-PSD/Pset_SlabCommon#pfaabe980d20711e1800000215ad4efdf> ;
+                                     schema:value  "Geschossdecke 1"
+                                   ] ;
+        props:reference            [ rdfs:seeAlso  <https://www.linkedbuildingdata.net/IFC4-PSD/Pset_ReinforcementBarPitchOfSlab#p4eb2d000d20011e1800000215ad4efdf> ;
+                                     schema:value  "Geschossdecke 1"
+                                   ] ;
+        owl:sameAs                 inst:IfcSlab_4294817 .
+
+inst:buildingelement_e2c0ef38-033c-43c9-ae00-a031dfb6b26b
+        a                          bot:Element ;
+        props:batid                [ schema:value
+                          "137822" ] ;
+        props:globalIdIfcRoot      [ schema:value
+                          "3YmEyu0pn3oQu0e37Vjh9h" ] ;
+        props:nameIfcRoot          [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte:Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte 1,40%:137822" ] ;
+        props:objectTypeIfcObject  [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte:Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte 1,40%" ] ;
+        props:reference            [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte 1,40%" ] ;
+        props:reference            [ rdfs:seeAlso  <https://www.linkedbuildingdata.net/IFC4-PSD/Pset_BuildingElementProxyCommon#p35d8f900d1c511e1800000215ad4efdf> ;
+                                     schema:value  "Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte 1,40%"
+                                   ] ;
+        owl:sameAs                 inst:IfcBuildingElementProxy_3581660 .
+
+inst:stair_d33b97fe-8d52-4a16-b1d2-91572963d96a
+        a                          bot:Element ;
+        props:batid                [ schema:value
+                          "161332" ] ;
+        props:globalIdIfcRoot      [ schema:value
+                          "3JEvV_ZL9A5h7IaLSfOzbg" ] ;
+        props:isExternal           [ rdfs:seeAlso  <https://www.linkedbuildingdata.net/IFC4-PSD/Pset_StairCommon#p136ace00d20d11e1800000215ad4efdf> ;
+                                     schema:value  false
+                                   ] ;
+        props:nameIfcRoot          [ schema:value
+                          "Ortbetontreppe:Treppe:161332" ] ;
+        props:numberOfRiser        [ rdfs:seeAlso  <https://www.linkedbuildingdata.net/IFC4-PSD/Pset_StairCommon#pe8807a00d20c11e1800000215ad4efdf> ;
+                                     schema:value  "41."^^xsd:double
+                                   ] ;
+        props:numberOfTreads       [ rdfs:seeAlso  <https://www.linkedbuildingdata.net/IFC4-PSD/Pset_StairCommon#ped452e00d20c11e1800000215ad4efdf> ;
+                                     schema:value  "40."^^xsd:double
+                                   ] ;
+        props:objectTypeIfcObject  [ schema:value
+                          "Ortbetontreppe:Ortbetontreppe" ] ;
+        props:reference            [ schema:value
+                          "Ortbetontreppe" ] ;
+        props:reference            [ rdfs:seeAlso  <https://www.linkedbuildingdata.net/IFC4-PSD/Pset_StairCommon#pd272b980d20c11e1800000215ad4efdf> ;
+                                     schema:value  "Ortbetontreppe"
+                                   ] ;
+        props:riserHeight          [ rdfs:seeAlso  <https://www.linkedbuildingdata.net/IFC4-PSD/Pset_StairCommon#pf2a27880d20c11e1800000215ad4efdf> ;
+                                     schema:value  "0.176027777777778"^^xsd:double
+                                   ] ;
+        props:treadLength          [ rdfs:seeAlso  <https://www.linkedbuildingdata.net/IFC4-PSD/Pset_StairCommon#pfafab380d20c11e1800000215ad4efdf> ;
+                                     schema:value  "0.26"^^xsd:double
+                                   ] ;
+        owl:sameAs                 inst:IfcStair_4298096 ;
+        bot:hasSubElement          inst:stairflight_d33b97fe-8d52-4a16-b1d2-91572963d96b .
+
+inst:buildingelement_e2c0ef38-033c-43c9-ae00-a031dfb6b24c
+        a                          bot:Element ;
+        props:batid                [ schema:value
+                          "137849" ] ;
+        props:globalIdIfcRoot      [ schema:value
+                          "3YmEyu0pn3oQu0e37Vjh9C" ] ;
+        props:nameIfcRoot          [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte:Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte 1,25%:137849" ] ;
+        props:objectTypeIfcObject  [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte:Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte 1,25%" ] ;
+        props:reference            [ rdfs:seeAlso  <https://www.linkedbuildingdata.net/IFC4-PSD/Pset_BuildingElementProxyCommon#p35d8f900d1c511e1800000215ad4efdf> ;
+                                     schema:value  "Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte 1,25%"
+                                   ] ;
+        props:reference            [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte 1,25%" ] ;
+        owl:sameAs                 inst:IfcBuildingElementProxy_3819409 .
+
+inst:buildingelement_78dded2d-d914-4e44-8780-039dd3c95ec3
+        a                          bot:Element ;
+        props:batid                [ schema:value
+                          "132200" ] ;
+        props:globalIdIfcRoot      [ schema:value
+                          "1utUqjsHHEH8U00vtJoLx3" ] ;
+        props:nameIfcRoot          [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte:Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte 2.12%:132200" ] ;
+        props:objectTypeIfcObject  [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte:Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte 2.12%" ] ;
+        props:reference            [ rdfs:seeAlso  <https://www.linkedbuildingdata.net/IFC4-PSD/Pset_BuildingElementProxyCommon#p35d8f900d1c511e1800000215ad4efdf> ;
+                                     schema:value  "Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte 2.12%"
+                                   ] ;
+        props:reference            [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte 2.12%" ] ;
+        owl:sameAs                 inst:IfcBuildingElementProxy_2386317 .
+
+inst:buildingelement_78dded2d-d914-4e44-8780-039dd3c95e8b
+        a                          bot:Element ;
+        props:batid                [ schema:value
+                          "132128" ] ;
+        props:globalIdIfcRoot      [ schema:value
+                          "1utUqjsHHEH8U00vtJoLwB" ] ;
+        props:nameIfcRoot          [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte:Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte 1,10%:132128" ] ;
+        props:objectTypeIfcObject  [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte:Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte 1,10%" ] ;
+        props:reference            [ rdfs:seeAlso  <https://www.linkedbuildingdata.net/IFC4-PSD/Pset_BuildingElementProxyCommon#p35d8f900d1c511e1800000215ad4efdf> ;
+                                     schema:value  "Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte 1,10%"
+                                   ] ;
+        props:reference            [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte 1,10%" ] ;
+        owl:sameAs                 inst:IfcBuildingElementProxy_962728 .
+
+inst:buildingelement_78dded2d-d914-4e44-8780-039dd3c95ebc
+        a                          bot:Element ;
+        props:batid                [ schema:value
+                          "132119" ] ;
+        props:globalIdIfcRoot      [ schema:value
+                          "1utUqjsHHEH8U00vtJoLwy" ] ;
+        props:nameIfcRoot          [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte:Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte 0,9%:132119" ] ;
+        props:objectTypeIfcObject  [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte:Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte 0,9%" ] ;
+        props:reference            [ rdfs:seeAlso  <https://www.linkedbuildingdata.net/IFC4-PSD/Pset_BuildingElementProxyCommon#p35d8f900d1c511e1800000215ad4efdf> ;
+                                     schema:value  "Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte 0,9%"
+                                   ] ;
+        props:reference            [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte 0,9%" ] ;
+        owl:sameAs                 inst:IfcBuildingElementProxy_725542 .
+
+inst:buildingelement_e2c0ef38-033c-43c9-ae00-a031dfb6b202
+        a                          bot:Element ;
+        props:batid                [ schema:value
+                          "137783" ] ;
+        props:globalIdIfcRoot      [ schema:value
+                          "3YmEyu0pn3oQu0e37Vjh82" ] ;
+        props:nameIfcRoot          [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte:Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte 2,14%:137783" ] ;
+        props:objectTypeIfcObject  [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte:Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte 2,14%" ] ;
+        props:reference            [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte 2,14%" ] ;
+        props:reference            [ rdfs:seeAlso  <https://www.linkedbuildingdata.net/IFC4-PSD/Pset_BuildingElementProxyCommon#p35d8f900d1c511e1800000215ad4efdf> ;
+                                     schema:value  "Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte 2,14%"
+                                   ] ;
+        owl:sameAs                 inst:IfcBuildingElementProxy_2868760 .
+
+inst:buildingelement_e2c0ef38-033c-43c9-ae00-a031dfb6b25f
+        a                          bot:Element ;
+        props:batid                [ schema:value
+                          "137834" ] ;
+        props:globalIdIfcRoot      [ schema:value
+                          "3YmEyu0pn3oQu0e37Vjh9V" ] ;
+        props:nameIfcRoot          [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte:Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte 1,25%:137834" ] ;
+        props:objectTypeIfcObject  [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte:Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte 1,25%" ] ;
+        props:reference            [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte 1,25%" ] ;
+        props:reference            [ rdfs:seeAlso  <https://www.linkedbuildingdata.net/IFC4-PSD/Pset_BuildingElementProxyCommon#p35d8f900d1c511e1800000215ad4efdf> ;
+                                     schema:value  "Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte 1,25%"
+                                   ] ;
+        owl:sameAs                 inst:IfcBuildingElementProxy_3819293 .
+
+inst:buildingelement_78dded2d-d914-4e44-8780-039dd3c95e9e
+        a                          bot:Element ;
+        props:batid                [ schema:value
+                          "132149" ] ;
+        props:globalIdIfcRoot      [ schema:value
+                          "1utUqjsHHEH8U00vtJoLwU" ] ;
+        props:nameIfcRoot          [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte:Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte 1,50%:132149" ] ;
+        props:objectTypeIfcObject  [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte:Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte 1,50%" ] ;
+        props:reference            [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte 1,50%" ] ;
+        props:reference            [ rdfs:seeAlso  <https://www.linkedbuildingdata.net/IFC4-PSD/Pset_BuildingElementProxyCommon#p35d8f900d1c511e1800000215ad4efdf> ;
+                                     schema:value  "Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte 1,50%"
+                                   ] ;
+        owl:sameAs                 inst:IfcBuildingElementProxy_1437186 .
+
+inst:buildingelement_bd8bbf35-6e86-4148-8868-9d6b8eaa1f5a
+        a                          bot:Element ;
+        props:batid                [ schema:value
+                          "40722" ] ;
+        props:globalIdIfcRoot      [ schema:value
+                          "2zYxyrReP1I8XedMkEgXzQ" ] ;
+        props:nameIfcRoot          [ schema:value
+                          "Widerlager A30:Widerlager A30:40722" ] ;
+        props:objectTypeIfcObject  [ schema:value
+                          "Widerlager A30:Widerlager A30" ] ;
+        props:reference            [ rdfs:seeAlso  <https://www.linkedbuildingdata.net/IFC4-PSD/Pset_BuildingElementProxyCommon#p35d8f900d1c511e1800000215ad4efdf> ;
+                                     schema:value  "Widerlager A30"
+                                   ] ;
+        props:reference            [ schema:value
+                          "Widerlager A30" ] ;
+        owl:sameAs                 inst:IfcBuildingElementProxy_4886 .
+
+inst:buildingelement_e2c0ef38-033c-43c9-ae00-a031dfb6b279
+        a                          bot:Element ;
+        props:batid                [ schema:value
+                          "137804" ] ;
+        props:globalIdIfcRoot      [ schema:value
+                          "3YmEyu0pn3oQu0e37Vjh9v" ] ;
+        props:nameIfcRoot          [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte:Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte 1,65%:137804" ] ;
+        props:objectTypeIfcObject  [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte:Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte 1,65%" ] ;
+        props:reference            [ rdfs:seeAlso  <https://www.linkedbuildingdata.net/IFC4-PSD/Pset_BuildingElementProxyCommon#p35d8f900d1c511e1800000215ad4efdf> ;
+                                     schema:value  "Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte 1,65%"
+                                   ] ;
+        props:reference            [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte 1,65%" ] ;
+        owl:sameAs                 inst:IfcBuildingElementProxy_3344063 .
+
+inst:buildingelement_c2771195-7335-4bc0-9205-2820eccf6b24
+        a                          bot:Element ;
+        props:batid                [ schema:value
+                          "145994" ] ;
+        props:globalIdIfcRoot      [ schema:value
+                          "32Tn6LSpLBm985A23ipsia" ] ;
+        props:nameIfcRoot          [ schema:value
+                          "Leitplanke S\\X2\\00FC\\X0\\d:Leitplanke S\\X2\\00FC\\X0\\d:145994" ] ;
+        props:objectTypeIfcObject  [ schema:value
+                          "Leitplanke S\\X2\\00FC\\X0\\d:Leitplanke S\\X2\\00FC\\X0\\d" ] ;
+        props:reference            [ rdfs:seeAlso  <https://www.linkedbuildingdata.net/IFC4-PSD/Pset_BuildingElementProxyCommon#p35d8f900d1c511e1800000215ad4efdf> ;
+                                     schema:value  "Leitplanke S\\X2\\00FC\\X0\\d"
+                                   ] ;
+        props:reference            [ schema:value
+                          "Leitplanke S\\X2\\00FC\\X0\\d" ] ;
+        owl:sameAs                 inst:IfcBuildingElementProxy_4294665 .
+
+inst:buildingelement_e2c0ef38-033c-43c9-ae00-a031dfb6b2bd
+        a                          bot:Element ;
+        props:batid                [ schema:value
+                          "137864" ] ;
+        props:globalIdIfcRoot      [ schema:value
+                          "3YmEyu0pn3oQu0e37VjhAz" ] ;
+        props:nameIfcRoot          [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte:Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte 1,01%:137864" ] ;
+        props:objectTypeIfcObject  [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte:Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte 1,01%" ] ;
+        props:reference            [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte 1,01%" ] ;
+        props:reference            [ rdfs:seeAlso  <https://www.linkedbuildingdata.net/IFC4-PSD/Pset_BuildingElementProxyCommon#p35d8f900d1c511e1800000215ad4efdf> ;
+                                     schema:value  "Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte 1,01%"
+                                   ] ;
+        owl:sameAs                 inst:IfcBuildingElementProxy_4057066 .
+
+inst:buildingelement_78dded2d-d914-4e44-8780-039dd3c95e99
+        a                          bot:Element ;
+        props:batid                [ schema:value
+                          "132146" ] ;
+        props:globalIdIfcRoot      [ schema:value
+                          "1utUqjsHHEH8U00vtJoLwP" ] ;
+        props:nameIfcRoot          [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte:Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte 1,50%:132146" ] ;
+        props:objectTypeIfcObject  [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte:Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte 1,50%" ] ;
+        props:reference            [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte 1,50%" ] ;
+        props:reference            [ rdfs:seeAlso  <https://www.linkedbuildingdata.net/IFC4-PSD/Pset_BuildingElementProxyCommon#p35d8f900d1c511e1800000215ad4efdf> ;
+                                     schema:value  "Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte 1,50%"
+                                   ] ;
+        owl:sameAs                 inst:IfcBuildingElementProxy_1437162 .
+
+inst:buildingelement_e2c0ef38-033c-43c9-ae00-a031dfb6b26d
+        a                          bot:Element ;
+        props:batid                [ schema:value
+                          "137816" ] ;
+        props:globalIdIfcRoot      [ schema:value
+                          "3YmEyu0pn3oQu0e37Vjh9j" ] ;
+        props:nameIfcRoot          [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte:Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte 1,40%:137816" ] ;
+        props:objectTypeIfcObject  [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte:Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte 1,40%" ] ;
+        props:reference            [ rdfs:seeAlso  <https://www.linkedbuildingdata.net/IFC4-PSD/Pset_BuildingElementProxyCommon#p35d8f900d1c511e1800000215ad4efdf> ;
+                                     schema:value  "Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte 1,40%"
+                                   ] ;
+        props:reference            [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte 1,40%" ] ;
+        owl:sameAs                 inst:IfcBuildingElementProxy_3581613 .
+
+inst:buildingelement_78dded2d-d914-4e44-8780-039dd3c95ef7
+        a                          bot:Element ;
+        props:batid                [ schema:value
+                          "132188" ] ;
+        props:globalIdIfcRoot      [ schema:value
+                          "1utUqjsHHEH8U00vtJoLxt" ] ;
+        props:nameIfcRoot          [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte:Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte 2.12%:132188" ] ;
+        props:objectTypeIfcObject  [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte:Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte 2.12%" ] ;
+        props:reference            [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte 2.12%" ] ;
+        props:reference            [ rdfs:seeAlso  <https://www.linkedbuildingdata.net/IFC4-PSD/Pset_BuildingElementProxyCommon#p35d8f900d1c511e1800000215ad4efdf> ;
+                                     schema:value  "Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte 2.12%"
+                                   ] ;
+        owl:sameAs                 inst:IfcBuildingElementProxy_2386224 .
+
+inst:buildingelement_78dded2d-d914-4e44-8780-039dd3c95e8d
+        a                          bot:Element ;
+        props:batid                [ schema:value
+                          "132134" ] ;
+        props:globalIdIfcRoot      [ schema:value
+                          "1utUqjsHHEH8U00vtJoLwD" ] ;
+        props:nameIfcRoot          [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte:Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte 1,30%:132134" ] ;
+        props:objectTypeIfcObject  [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte:Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte 1,30%" ] ;
+        props:reference            [ rdfs:seeAlso  <https://www.linkedbuildingdata.net/IFC4-PSD/Pset_BuildingElementProxyCommon#p35d8f900d1c511e1800000215ad4efdf> ;
+                                     schema:value  "Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte 1,30%"
+                                   ] ;
+        props:reference            [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte 1,30%" ] ;
+        owl:sameAs                 inst:IfcBuildingElementProxy_1199958 .
+
+inst:stair_e4efba06-c78c-4ecb-8575-b4a4f3c25a3b
+        a                          bot:Element ;
+        props:batid                [ schema:value
+                          "160396" ] ;
+        props:globalIdIfcRoot      [ schema:value
+                          "3axxe6nunEouLrjAJpmbex" ] ;
+        props:isExternal           [ rdfs:seeAlso  <https://www.linkedbuildingdata.net/IFC4-PSD/Pset_StairCommon#p136ace00d20d11e1800000215ad4efdf> ;
+                                     schema:value  false
+                                   ] ;
+        props:nameIfcRoot          [ schema:value
+                          "Ortbetontreppe:Treppe:160396" ] ;
+        props:numberOfRiser        [ rdfs:seeAlso  <https://www.linkedbuildingdata.net/IFC4-PSD/Pset_StairCommon#pe8807a00d20c11e1800000215ad4efdf> ;
+                                     schema:value  "36."^^xsd:double
+                                   ] ;
+        props:numberOfTreads       [ rdfs:seeAlso  <https://www.linkedbuildingdata.net/IFC4-PSD/Pset_StairCommon#ped452e00d20c11e1800000215ad4efdf> ;
+                                     schema:value  "35."^^xsd:double
+                                   ] ;
+        props:objectTypeIfcObject  [ schema:value
+                          "Ortbetontreppe:Ortbetontreppe" ] ;
+        props:reference            [ schema:value
+                          "Ortbetontreppe" ] ;
+        props:reference            [ rdfs:seeAlso  <https://www.linkedbuildingdata.net/IFC4-PSD/Pset_StairCommon#pd272b980d20c11e1800000215ad4efdf> ;
+                                     schema:value  "Ortbetontreppe"
+                                   ] ;
+        props:riserHeight          [ rdfs:seeAlso  <https://www.linkedbuildingdata.net/IFC4-PSD/Pset_StairCommon#pf2a27880d20c11e1800000215ad4efdf> ;
+                                     schema:value  "0.181057142857143"^^xsd:double
+                                   ] ;
+        props:treadLength          [ rdfs:seeAlso  <https://www.linkedbuildingdata.net/IFC4-PSD/Pset_StairCommon#pfafab380d20c11e1800000215ad4efdf> ;
+                                     schema:value  "0.261"^^xsd:double
+                                   ] ;
+        owl:sameAs                 inst:IfcStair_4296897 ;
+        bot:hasSubElement          inst:stairflight_e4efba06-c78c-4ecb-8575-b4a4f3c25b81 .
+
+inst:buildingelement_e2c0ef38-033c-43c9-ae00-a031dfb6b204
+        a                          bot:Element ;
+        props:batid                [ schema:value
+                          "137777" ] ;
+        props:globalIdIfcRoot      [ schema:value
+                          "3YmEyu0pn3oQu0e37Vjh84" ] ;
+        props:nameIfcRoot          [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte:Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte 2,14%:137777" ] ;
+        props:objectTypeIfcObject  [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte:Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte 2,14%" ] ;
+        props:reference            [ rdfs:seeAlso  <https://www.linkedbuildingdata.net/IFC4-PSD/Pset_BuildingElementProxyCommon#p35d8f900d1c511e1800000215ad4efdf> ;
+                                     schema:value  "Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte 2,14%"
+                                   ] ;
+        props:reference            [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte 2,14%" ] ;
+        owl:sameAs                 inst:IfcBuildingElementProxy_2868714 .
+
+inst:buildingelement_78dded2d-d914-4e44-8780-039dd3c95ef2
+        a                          bot:Element ;
+        props:batid                [ schema:value
+                          "132185" ] ;
+        props:globalIdIfcRoot      [ schema:value
+                          "1utUqjsHHEH8U00vtJoLxo" ] ;
+        props:nameIfcRoot          [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte:Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte 1,90%:132185" ] ;
+        props:objectTypeIfcObject  [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte:Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte 1,90%" ] ;
+        props:reference            [ rdfs:seeAlso  <https://www.linkedbuildingdata.net/IFC4-PSD/Pset_BuildingElementProxyCommon#p35d8f900d1c511e1800000215ad4efdf> ;
+                                     schema:value  "Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte 1,90%"
+                                   ] ;
+        props:reference            [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte 1,90%" ] ;
+        owl:sameAs                 inst:IfcBuildingElementProxy_2148927 .
+
+inst:buildingelement_e2c0ef38-033c-43c9-ae00-a031dfb6b249
+        a                          bot:Element ;
+        props:batid                [ schema:value
+                          "137852" ] ;
+        props:globalIdIfcRoot      [ schema:value
+                          "3YmEyu0pn3oQu0e37Vjh99" ] ;
+        props:nameIfcRoot          [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte:Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte 1,01%:137852" ] ;
+        props:objectTypeIfcObject  [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte:Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte 1,01%" ] ;
+        props:reference            [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte 1,01%" ] ;
+        props:reference            [ rdfs:seeAlso  <https://www.linkedbuildingdata.net/IFC4-PSD/Pset_BuildingElementProxyCommon#p35d8f900d1c511e1800000215ad4efdf> ;
+                                     schema:value  "Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte 1,01%"
+                                   ] ;
+        owl:sameAs                 inst:IfcBuildingElementProxy_4056973 .
+
+inst:buildingelement_270f415c-47f1-493f-8adb-420fa881b210
+        a                          bot:Element ;
+        props:batid                [ schema:value
+                          "87256" ] ;
+        props:globalIdIfcRoot      [ schema:value
+                          "0d3q5SH$59FuhRGW_eWR8G" ] ;
+        props:nameIfcRoot          [ schema:value
+                          "Kappe A30 S\\X2\\00FC\\X0\\d:Kappe A30 S\\X2\\00FC\\X0\\d:87256" ] ;
+        props:objectTypeIfcObject  [ schema:value
+                          "Kappe A30 S\\X2\\00FC\\X0\\d:Kappe A30 S\\X2\\00FC\\X0\\d" ] ;
+        props:reference            [ rdfs:seeAlso  <https://www.linkedbuildingdata.net/IFC4-PSD/Pset_BuildingElementProxyCommon#p35d8f900d1c511e1800000215ad4efdf> ;
+                                     schema:value  "Kappe A30 S\\X2\\00FC\\X0\\d"
+                                   ] ;
+        props:reference            [ schema:value
+                          "Kappe A30 S\\X2\\00FC\\X0\\d" ] ;
+        owl:sameAs                 inst:IfcBuildingElementProxy_13224 .
+
+inst:buildingelement_e2c0ef38-033c-43c9-ae00-a031dfb6b217
+        a                          bot:Element ;
+        props:batid                [ schema:value
+                          "137762" ] ;
+        props:globalIdIfcRoot      [ schema:value
+                          "3YmEyu0pn3oQu0e37Vjh8N" ] ;
+        props:nameIfcRoot          [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte:Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte 2,14%:137762" ] ;
+        props:objectTypeIfcObject  [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte:Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte 2,14%" ] ;
+        props:reference            [ rdfs:seeAlso  <https://www.linkedbuildingdata.net/IFC4-PSD/Pset_BuildingElementProxyCommon#p35d8f900d1c511e1800000215ad4efdf> ;
+                                     schema:value  "Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte 2,14%"
+                                   ] ;
+        props:reference            [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte 2,14%" ] ;
+        owl:sameAs                 inst:IfcBuildingElementProxy_2868690 .
+
+inst:buildingelement_78dded2d-d914-4e44-8780-039dd3c95e88
+        a                          bot:Element ;
+        props:batid                [ schema:value
+                          "132131" ] ;
+        props:globalIdIfcRoot      [ schema:value
+                          "1utUqjsHHEH8U00vtJoLw8" ] ;
+        props:nameIfcRoot          [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte:Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte 1,10%:132131" ] ;
+        props:objectTypeIfcObject  [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte:Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte 1,10%" ] ;
+        props:reference            [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte 1,10%" ] ;
+        props:reference            [ rdfs:seeAlso  <https://www.linkedbuildingdata.net/IFC4-PSD/Pset_BuildingElementProxyCommon#p35d8f900d1c511e1800000215ad4efdf> ;
+                                     schema:value  "Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte 1,10%"
+                                   ] ;
+        owl:sameAs                 inst:IfcBuildingElementProxy_962751 .
+
+inst:buildingelement_e2c0ef38-033c-43c9-ae00-a031dfb6b276
+        a                          bot:Element ;
+        props:batid                [ schema:value
+                          "137795" ] ;
+        props:globalIdIfcRoot      [ schema:value
+                          "3YmEyu0pn3oQu0e37Vjh9s" ] ;
+        props:nameIfcRoot          [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte:Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte 1,95%:137795" ] ;
+        props:objectTypeIfcObject  [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte:Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte 1,95%" ] ;
+        props:reference            [ rdfs:seeAlso  <https://www.linkedbuildingdata.net/IFC4-PSD/Pset_BuildingElementProxyCommon#p35d8f900d1c511e1800000215ad4efdf> ;
+                                     schema:value  "Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte 1,95%"
+                                   ] ;
+        props:reference            [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte 1,95%" ] ;
+        owl:sameAs                 inst:IfcBuildingElementProxy_3106423 .
+
+inst:buildingelement_78dded2d-d914-4e44-8780-039dd3c95ee6
+        a                          bot:Element ;
+        props:batid                [ schema:value
+                          "132173" ] ;
+        props:globalIdIfcRoot      [ schema:value
+                          "1utUqjsHHEH8U00vtJoLxc" ] ;
+        props:nameIfcRoot          [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte:Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte 1,80%:132173" ] ;
+        props:objectTypeIfcObject  [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte:Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte 1,80%" ] ;
+        props:reference            [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte 1,80%" ] ;
+        props:reference            [ rdfs:seeAlso  <https://www.linkedbuildingdata.net/IFC4-PSD/Pset_BuildingElementProxyCommon#p35d8f900d1c511e1800000215ad4efdf> ;
+                                     schema:value  "Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte 1,80%"
+                                   ] ;
+        owl:sameAs                 inst:IfcBuildingElementProxy_1911642 .
+
+inst:buildingelement_4f1c5e37-811c-429e-8ae8-e6037f330c76
+        a                          bot:Element ;
+        props:batid                [ schema:value
+                          "147144" ] ;
+        props:depth                [ schema:value
+                          "0.699999999999999"^^xsd:double ] ;
+        props:globalIdIfcRoot      [ schema:value
+                          "1F75utWHn2dehevWD$Cmns" ] ;
+        props:height               [ schema:value
+                          "0.699999999999998"^^xsd:double ] ;
+        props:nameIfcRoot          [ schema:value
+                          "Lager A10:Lager A10:147144" ] ;
+        props:objectTypeIfcObject  [ schema:value
+                          "Lager A10:Lager A10" ] ;
+        props:reference            [ rdfs:seeAlso  <https://www.linkedbuildingdata.net/IFC4-PSD/Pset_BuildingElementProxyCommon#p35d8f900d1c511e1800000215ad4efdf> ;
+                                     schema:value  "Lager A10"
+                                   ] ;
+        props:reference            [ schema:value
+                          "Lager A10" ] ;
+        props:width                [ schema:value
+                          "0.699999999999999"^^xsd:double ] ;
+        owl:sameAs                 inst:IfcBuildingElementProxy_4294885 .
+
+inst:buildingelement_7345dfeb-582f-40d2-b3b1-5daf701d04d4
+        a                          bot:Element ;
+        props:batid                [ schema:value
+                          "11240" ] ;
+        props:globalIdIfcRoot      [ schema:value
+                          "1pHT$hM2z0qhEnNQzm7GJK" ] ;
+        props:nameIfcRoot          [ schema:value
+                          "Fundament A30:Fundment A30:11240" ] ;
+        props:objectTypeIfcObject  [ schema:value
+                          "Fundament A30:Fundment A30" ] ;
+        props:reference            [ rdfs:seeAlso  <https://www.linkedbuildingdata.net/IFC4-PSD/Pset_BuildingElementProxyCommon#p35d8f900d1c511e1800000215ad4efdf> ;
+                                     schema:value  "Fundment A30"
+                                   ] ;
+        props:reference            [ schema:value
+                          "Fundment A30" ] ;
+        owl:sameAs                 inst:IfcBuildingElementProxy_2998 .
+
+inst:buildingelement_e2c0ef38-033c-43c9-ae00-a031dfb6b137
+        a                          bot:Element ;
+        props:batid                [ schema:value
+                          "137474" ] ;
+        props:globalIdIfcRoot      [ schema:value
+                          "3YmEyu0pn3oQu0e37Vjh4t" ] ;
+        props:nameIfcRoot          [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Steigend-Links:Gel\\X2\\00E4\\X0\\nder-Steigend-Links:137474" ] ;
+        props:objectTypeIfcObject  [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Steigend-Links:Gel\\X2\\00E4\\X0\\nder-Steigend-Links" ] ;
+        props:reference            [ rdfs:seeAlso  <https://www.linkedbuildingdata.net/IFC4-PSD/Pset_BuildingElementProxyCommon#p35d8f900d1c511e1800000215ad4efdf> ;
+                                     schema:value  "Gel\\X2\\00E4\\X0\\nder-Steigend-Links"
+                                   ] ;
+        props:reference            [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Steigend-Links" ] ;
+        owl:sameAs                 inst:IfcBuildingElementProxy_2631174 .
+
+inst:buildingelement_bae0fd65-aae8-4a94-97d8-46b63b85dd11
+        a                          bot:Element ;
+        props:batid                [ schema:value
+                          "81517" ] ;
+        props:globalIdIfcRoot      [ schema:value
+                          "2wuFrbgkXAb9VOHhOxXTqH" ] ;
+        props:nameIfcRoot          [ schema:value
+                          "Kappe \\X2\\00DC\\X0\\berbau S\\X2\\00FC\\X0\\d:Kappe \\X2\\00DC\\X0\\berbau S\\X2\\00FC\\X0\\d:81517" ] ;
+        props:objectTypeIfcObject  [ schema:value
+                          "Kappe \\X2\\00DC\\X0\\berbau S\\X2\\00FC\\X0\\d:Kappe \\X2\\00DC\\X0\\berbau S\\X2\\00FC\\X0\\d" ] ;
+        props:reference            [ rdfs:seeAlso  <https://www.linkedbuildingdata.net/IFC4-PSD/Pset_BuildingElementProxyCommon#p35d8f900d1c511e1800000215ad4efdf> ;
+                                     schema:value  "Kappe \\X2\\00DC\\X0\\berbau S\\X2\\00FC\\X0\\d"
+                                   ] ;
+        props:reference            [ schema:value
+                          "Kappe \\X2\\00DC\\X0\\berbau S\\X2\\00FC\\X0\\d" ] ;
+        owl:sameAs                 inst:IfcBuildingElementProxy_12744 .
+
+inst:buildingelement_78dded2d-d914-4e44-8780-039dd3c95ee1
+        a                          bot:Element ;
+        props:batid                [ schema:value
+                          "132170" ] ;
+        props:globalIdIfcRoot      [ schema:value
+                          "1utUqjsHHEH8U00vtJoLxX" ] ;
+        props:nameIfcRoot          [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte:Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte 1,80%:132170" ] ;
+        props:objectTypeIfcObject  [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte:Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte 1,80%" ] ;
+        props:reference            [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte 1,80%" ] ;
+        props:reference            [ rdfs:seeAlso  <https://www.linkedbuildingdata.net/IFC4-PSD/Pset_BuildingElementProxyCommon#p35d8f900d1c511e1800000215ad4efdf> ;
+                                     schema:value  "Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte 1,80%"
+                                   ] ;
+        owl:sameAs                 inst:IfcBuildingElementProxy_1911618 .
+
+inst:buildingelement_4f1c5e37-811c-429e-8ae8-e6037f337660
+        a                          bot:Element ;
+        props:batid                [ schema:value
+                          "148702" ] ;
+        props:globalIdIfcRoot      [ schema:value
+                          "1F75utWHn2dehevWD$CtPW" ] ;
+        props:nameIfcRoot          [ schema:value
+                          "Landstra\\X2\\00DF\\X0\\e:Landstra\\X2\\00DF\\X0\\e:148702" ] ;
+        props:objectTypeIfcObject  [ schema:value
+                          "Landstra\\X2\\00DF\\X0\\e:Landstra\\X2\\00DF\\X0\\e" ] ;
+        props:reference            [ rdfs:seeAlso  <https://www.linkedbuildingdata.net/IFC4-PSD/Pset_BuildingElementProxyCommon#p35d8f900d1c511e1800000215ad4efdf> ;
+                                     schema:value  "Landstra\\X2\\00DF\\X0\\e"
+                                   ] ;
+        props:reference            [ schema:value
+                          "Landstra\\X2\\00DF\\X0\\e" ] ;
+        owl:sameAs                 inst:IfcBuildingElementProxy_4295495 .
+
+inst:buildingelement_e2c0ef38-033c-43c9-ae00-a031dfb6b252
+        a                          bot:Element ;
+        props:batid                [ schema:value
+                          "137831" ] ;
+        props:globalIdIfcRoot      [ schema:value
+                          "3YmEyu0pn3oQu0e37Vjh9I" ] ;
+        props:nameIfcRoot          [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte:Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte 1,40%:137831" ] ;
+        props:objectTypeIfcObject  [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte:Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte 1,40%" ] ;
+        props:reference            [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte 1,40%" ] ;
+        props:reference            [ rdfs:seeAlso  <https://www.linkedbuildingdata.net/IFC4-PSD/Pset_BuildingElementProxyCommon#p35d8f900d1c511e1800000215ad4efdf> ;
+                                     schema:value  "Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte 1,40%"
+                                   ] ;
+        owl:sameAs                 inst:IfcBuildingElementProxy_3581729 .
+
+inst:buildingelement_78dded2d-d914-4e44-8780-039dd3c95ef4
+        a                          bot:Element ;
+        props:batid                [ schema:value
+                          "132191" ] ;
+        props:globalIdIfcRoot      [ schema:value
+                          "1utUqjsHHEH8U00vtJoLxq" ] ;
+        props:nameIfcRoot          [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte:Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte 2.12%:132191" ] ;
+        props:objectTypeIfcObject  [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte:Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte 2.12%" ] ;
+        props:reference            [ rdfs:seeAlso  <https://www.linkedbuildingdata.net/IFC4-PSD/Pset_BuildingElementProxyCommon#p35d8f900d1c511e1800000215ad4efdf> ;
+                                     schema:value  "Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte 2.12%"
+                                   ] ;
+        props:reference            [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte 2.12%" ] ;
+        owl:sameAs                 inst:IfcBuildingElementProxy_2386248 .
+
+inst:site_49c24f44-9e59-46e7-a811-220d4ae773bc
+        a                          bot:Site ;
+        props:globalIdIfcRoot      [ schema:value
+                          "19maz4dbb6vwWH8WrAvtEy" ] ;
+        props:nameIfcRoot          [ schema:value
+                          "Oberfl\\X2\\00E4\\X0\\che:151090" ] ;
+        props:refElevationIfcSite  [ schema:value
+                          "0."^^xsd:double ] ;
+        owl:sameAs                 inst:IfcSite_2856 ;
+        bot:hasBuilding            inst:building_49c24f44-9e59-46e7-a811-220d4ae773bf .
+
+inst:buildingelement_e2c0ef38-033c-43c9-ae00-a031dfb6b201
+        a                          bot:Element ;
+        props:batid                [ schema:value
+                          "137780" ] ;
+        props:globalIdIfcRoot      [ schema:value
+                          "3YmEyu0pn3oQu0e37Vjh81" ] ;
+        props:nameIfcRoot          [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte:Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte 2,14%:137780" ] ;
+        props:objectTypeIfcObject  [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte:Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte 2,14%" ] ;
+        props:reference            [ rdfs:seeAlso  <https://www.linkedbuildingdata.net/IFC4-PSD/Pset_BuildingElementProxyCommon#p35d8f900d1c511e1800000215ad4efdf> ;
+                                     schema:value  "Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte 2,14%"
+                                   ] ;
+        props:reference            [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte 2,14%" ] ;
+        owl:sameAs                 inst:IfcBuildingElementProxy_2868737 .
+
+inst:buildingelement_e2c0ef38-033c-43c9-ae00-a031dfb6b2b0
+        a                          bot:Element ;
+        props:batid                [ schema:value
+                          "137861" ] ;
+        props:globalIdIfcRoot      [ schema:value
+                          "3YmEyu0pn3oQu0e37VjhAm" ] ;
+        props:nameIfcRoot          [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte:Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte 1,01%:137861" ] ;
+        props:objectTypeIfcObject  [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte:Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte 1,01%" ] ;
+        props:reference            [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte 1,01%" ] ;
+        props:reference            [ rdfs:seeAlso  <https://www.linkedbuildingdata.net/IFC4-PSD/Pset_BuildingElementProxyCommon#p35d8f900d1c511e1800000215ad4efdf> ;
+                                     schema:value  "Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte 1,01%"
+                                   ] ;
+        owl:sameAs                 inst:IfcBuildingElementProxy_4057043 .
+
+inst:buildingelement_78dded2d-d914-4e44-8780-039dd3c95ea3
+        a                          bot:Element ;
+        props:batid                [ schema:value
+                          "132104" ] ;
+        props:globalIdIfcRoot      [ schema:value
+                          "1utUqjsHHEH8U00vtJoLwZ" ] ;
+        props:nameIfcRoot          [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte:Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte 0,58%:132104" ] ;
+        props:objectTypeIfcObject  [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte:Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte 0,58%" ] ;
+        props:reference            [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte 0,58%" ] ;
+        props:reference            [ rdfs:seeAlso  <https://www.linkedbuildingdata.net/IFC4-PSD/Pset_BuildingElementProxyCommon#p35d8f900d1c511e1800000215ad4efdf> ;
+                                     schema:value  "Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte 0,58%"
+                                   ] ;
+        owl:sameAs                 inst:IfcBuildingElementProxy_488297 .
+
+inst:buildingelement_e2c0ef38-033c-43c9-ae00-a031dfb6b246
+        a                          bot:Element ;
+        props:batid                [ schema:value
+                          "137843" ] ;
+        props:globalIdIfcRoot      [ schema:value
+                          "3YmEyu0pn3oQu0e37Vjh96" ] ;
+        props:nameIfcRoot          [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte:Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte 1,25%:137843" ] ;
+        props:objectTypeIfcObject  [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte:Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte 1,25%" ] ;
+        props:reference            [ rdfs:seeAlso  <https://www.linkedbuildingdata.net/IFC4-PSD/Pset_BuildingElementProxyCommon#p35d8f900d1c511e1800000215ad4efdf> ;
+                                     schema:value  "Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte 1,25%"
+                                   ] ;
+        props:reference            [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte 1,25%" ] ;
+        owl:sameAs                 inst:IfcBuildingElementProxy_3819363 .
+
+inst:buildingelement_78dded2d-d914-4e44-8780-039dd3c95ece
+        a                          bot:Element ;
+        props:batid                [ schema:value
+                          "132197" ] ;
+        props:globalIdIfcRoot      [ schema:value
+                          "1utUqjsHHEH8U00vtJoLxE" ] ;
+        props:nameIfcRoot          [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte:Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte 2.12%:132197" ] ;
+        props:objectTypeIfcObject  [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte:Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte 2.12%" ] ;
+        props:reference            [ rdfs:seeAlso  <https://www.linkedbuildingdata.net/IFC4-PSD/Pset_BuildingElementProxyCommon#p35d8f900d1c511e1800000215ad4efdf> ;
+                                     schema:value  "Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte 2.12%"
+                                   ] ;
+        props:reference            [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte 2.12%" ] ;
+        owl:sameAs                 inst:IfcBuildingElementProxy_2386294 .
+
+inst:buildingelement_e2c0ef38-033c-43c9-ae00-a031dfb6b260
+        a                          bot:Element ;
+        props:batid                [ schema:value
+                          "137813" ] ;
+        props:globalIdIfcRoot      [ schema:value
+                          "3YmEyu0pn3oQu0e37Vjh9W" ] ;
+        props:nameIfcRoot          [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte:Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte 1,65%:137813" ] ;
+        props:objectTypeIfcObject  [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte:Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte 1,65%" ] ;
+        props:reference            [ rdfs:seeAlso  <https://www.linkedbuildingdata.net/IFC4-PSD/Pset_BuildingElementProxyCommon#p35d8f900d1c511e1800000215ad4efdf> ;
+                                     schema:value  "Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte 1,65%"
+                                   ] ;
+        props:reference            [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte 1,65%" ] ;
+        owl:sameAs                 inst:IfcBuildingElementProxy_3344132 .
+
+inst:stairflight_e4efba06-c78c-4ecb-8575-b4a4f3c25b81
+        a                          bot:Element ;
+        props:batid                [ schema:value
+                          "160566" ] ;
+        props:globalIdIfcRoot      [ schema:value
+                          "3axxe6nunEouLrjAJpmbk1" ] ;
+        props:nameIfcRoot          [ schema:value
+                          "Ortbetontreppe:Treppe:160396 Run 1" ] ;
+        props:numberOfRiserIfcStairFlight
+                [ schema:value  36 ] ;
+        props:numberOfTreadsIfcStairFlight
+                [ schema:value  35 ] ;
+        props:objectTypeIfcObject  [ schema:value
+                          "Massivtreppenlauf:Massivtreppenlauf" ] ;
+        props:riserHeightIfcStairFlight
+                [ schema:value  "0.594019497562805"^^xsd:double ] ;
+        props:treadLengthIfcStairFlight
+                [ schema:value  "0.856299212598425"^^xsd:double ] ;
+        owl:sameAs                 inst:IfcStairFlight_4298054 .
+
+inst:buildingelement_78dded2d-d914-4e44-8780-039dd3c95eb6
+        a                          bot:Element ;
+        props:batid                [ schema:value
+                          "132125" ] ;
+        props:globalIdIfcRoot      [ schema:value
+                          "1utUqjsHHEH8U00vtJoLws" ] ;
+        props:nameIfcRoot          [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte:Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte 1,10%:132125" ] ;
+        props:objectTypeIfcObject  [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte:Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte 1,10%" ] ;
+        props:reference            [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte 1,10%" ] ;
+        props:reference            [ rdfs:seeAlso  <https://www.linkedbuildingdata.net/IFC4-PSD/Pset_BuildingElementProxyCommon#p35d8f900d1c511e1800000215ad4efdf> ;
+                                     schema:value  "Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte 1,10%"
+                                   ] ;
+        owl:sameAs                 inst:IfcBuildingElementProxy_962705 .
+
+inst:stairflight_d33b97fe-8d52-4a16-b1d2-91572963d96b
+        a                          bot:Element ;
+        props:batid                [ schema:value
+                          "161333" ] ;
+        props:globalIdIfcRoot      [ schema:value
+                          "3JEvV_ZL9A5h7IaLSfOzbh" ] ;
+        props:nameIfcRoot          [ schema:value
+                          "Ortbetontreppe:Treppe:161332 Run 1" ] ;
+        props:numberOfRiserIfcStairFlight
+                [ schema:value  41 ] ;
+        props:numberOfTreadsIfcStairFlight
+                [ schema:value  40 ] ;
+        props:objectTypeIfcObject  [ schema:value
+                          "Massivtreppenlauf:Massivtreppenlauf" ] ;
+        props:riserHeightIfcStairFlight
+                [ schema:value  "0.577518955963838"^^xsd:double ] ;
+        props:treadLengthIfcStairFlight
+                [ schema:value  "0.853018372703412"^^xsd:double ] ;
+        owl:sameAs                 inst:IfcStairFlight_4299413 .
+
+inst:buildingelement_e2c0ef38-033c-43c9-ae00-a031dfb6b273
+        a                          bot:Element ;
+        props:batid                [ schema:value
+                          "137798" ] ;
+        props:globalIdIfcRoot      [ schema:value
+                          "3YmEyu0pn3oQu0e37Vjh9p" ] ;
+        props:nameIfcRoot          [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte:Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte 1,95%:137798" ] ;
+        props:objectTypeIfcObject  [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte:Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte 1,95%" ] ;
+        props:reference            [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte 1,95%" ] ;
+        props:reference            [ rdfs:seeAlso  <https://www.linkedbuildingdata.net/IFC4-PSD/Pset_BuildingElementProxyCommon#p35d8f900d1c511e1800000215ad4efdf> ;
+                                     schema:value  "Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte 1,95%"
+                                   ] ;
+        owl:sameAs                 inst:IfcBuildingElementProxy_3106446 .
+
+inst:buildingelement_78dded2d-d914-4e44-8780-039dd3c95efb
+        a                          bot:Element ;
+        props:batid                [ schema:value
+                          "132176" ] ;
+        props:globalIdIfcRoot      [ schema:value
+                          "1utUqjsHHEH8U00vtJoLxx" ] ;
+        props:nameIfcRoot          [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte:Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte 1,80%:132176" ] ;
+        props:objectTypeIfcObject  [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte:Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte 1,80%" ] ;
+        props:reference            [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte 1,80%" ] ;
+        props:reference            [ rdfs:seeAlso  <https://www.linkedbuildingdata.net/IFC4-PSD/Pset_BuildingElementProxyCommon#p35d8f900d1c511e1800000215ad4efdf> ;
+                                     schema:value  "Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte 1,80%"
+                                   ] ;
+        owl:sameAs                 inst:IfcBuildingElementProxy_1911665 .
+
+inst:buildingelement_e2c0ef38-033c-43c9-ae00-a031dfb6b2a4
+        a                          bot:Element ;
+        props:batid                [ schema:value
+                          "137873" ] ;
+        props:globalIdIfcRoot      [ schema:value
+                          "3YmEyu0pn3oQu0e37VjhAa" ] ;
+        props:nameIfcRoot          [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte:Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte 1,01%:137873" ] ;
+        props:objectTypeIfcObject  [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte:Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte 1,01%" ] ;
+        props:reference            [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte 1,01%" ] ;
+        props:reference            [ rdfs:seeAlso  <https://www.linkedbuildingdata.net/IFC4-PSD/Pset_BuildingElementProxyCommon#p35d8f900d1c511e1800000215ad4efdf> ;
+                                     schema:value  "Gel\\X2\\00E4\\X0\\nder-Steigend-Mitte 1,01%"
+                                   ] ;
+        owl:sameAs                 inst:IfcBuildingElementProxy_4057135 .
+
+inst:buildingelement_78dded2d-d914-4e44-8780-039dd3c95ec9
+        a                          bot:Element ;
+        props:batid                [ schema:value
+                          "132194" ] ;
+        props:globalIdIfcRoot      [ schema:value
+                          "1utUqjsHHEH8U00vtJoLx9" ] ;
+        props:nameIfcRoot          [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte:Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte 2.12%:132194" ] ;
+        props:objectTypeIfcObject  [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte:Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte 2.12%" ] ;
+        props:reference            [ rdfs:seeAlso  <https://www.linkedbuildingdata.net/IFC4-PSD/Pset_BuildingElementProxyCommon#p35d8f900d1c511e1800000215ad4efdf> ;
+                                     schema:value  "Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte 2.12%"
+                                   ] ;
+        props:reference            [ schema:value
+                          "Gel\\X2\\00E4\\X0\\nder-Fallend-Mitte 2.12%" ] ;
+        owl:sameAs                 inst:IfcBuildingElementProxy_2386271 .
