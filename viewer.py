@@ -177,7 +177,7 @@ class my_app(application):
 
 
     def loadExampleFile(self):
-        self.load(r"C:\Users\Anne\Desktop\TwinGenViewer\BW45-2_ohneGel_try3.ifc")
+        self.load(r"C:\GitHub\TwinGenViewer\BW45-2_ohneGelaender_mapped.ifc")
 
     def zoomAll(self):
         self.canvas._display.FitAll()

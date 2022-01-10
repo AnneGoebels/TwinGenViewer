@@ -1,0 +1,61 @@
+@prefix asb:<https://w3id.org/asbingowl/core#>.
+@prefix :<http://example.org/sibbw7936662#>.
+@prefix inst:<https://asbingowl.org/TwinGenDemo/BW452#>.
+@prefix owl:<http://www.w3.org/2002/07/owl#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix bot: <https://w3id.org/bot#>.
+
+# neue relations
+
+asb:hasModelRepresentation a owl:ObjectProperty ;
+   rdfs:label "hasModelRepresentation";
+   rdfs:domain asb:ASBING13_BauteilDefinition, asb:AbstraktesBauteil;
+   rdfs:range  bot:Element.
+
+asb:beschreibtBauteil a owl:ObjectProperty ;
+   rdfs:label "beschreibtBauteil";
+   rdfs:domain asb:ASBING13_BauteilDefinition;
+   rdfs:range  asb:AbstraktesBauteil.
+
+# asb:Fahrbahn zu IFCSlab/Landstrasse  (gibt noch asb:Fahrbahntafel??)
+
+:6960678_BauteilDefinition asb:beschreibtBauteil :DP19V2AN_Fahrbahn.
+:3897126_BauteilDefinition asb:beschreibtBauteil :DP19V2AN_Fahrbahn.
+
+:DP19V2AN_Fahrbahn asb:hasModelRepresentation inst:slab_4f1c5e37-811c-429e-8ae8-e6037f337660 .
+
+# alle Bauteildefs (inkls. quer/laengs Balken) die sich auf den Ueberbau beziehen
+
+:6961718_BauteilDefinition asb:beschreibtBauteil :N_6480971_Ueberbau.
+:3933280_BauteilDefinition asb:beschreibtBauteil :N_6480971_Ueberbau.
+:4202461_BauteilDefinition asb:beschreibtBauteil :N_6480971_Ueberbau.
+:3897126_BauteilDefinition asb:beschreibtBauteil :N_6480971_Ueberbau.
+:4986160_BauteilDefinition asb:beschreibtBauteil :N_6480971_Ueberbau.
+
+:N_6480971_Ueberbau asb:hasModelRepresentation inst:buildingelement_ec58c491-5aad-416c-94b5-1c58459b2843 .
+
+#Widerlager 1 (vorne), Achse 10 (asb:Unterbau mit Feld 1 verbunden)
+:4096902_BauteilDefinition asb:beschreibtBauteil :N_9957424_Unterbau.
+:4986160_BauteilDefinition asb:beschreibtBauteil :N_9957424_Unterbau.
+
+:N_9957424_Unterbau asb:hasModelRepresentation inst:wall_b4419de6-2b66-4df1-942e-64ca9c679b37.
+
+# Pfeiler Unterbau (keine Bauteildefs gefunden)
+:N_2863283_Unterbau asb:hasModelRepresentation inst:column_b2b22d62-5b8e-42af-ba99-9fddd5a722ae .
+
+# Widerlager 2 (hinten) Achse 30
+:3501831_BauteilDefinition asb:beschreibtBauteil :N_3973876_Unterbau.
+:4096902_BauteilDefinition asb:beschreibtBauteil :N_3973876_Unterbau.
+
+:N_3973876_Unterbau asb:hasModelRepresentation inst:wall_bd8bbf35-6e86-4148-8868-9d6b8eaa1f5a.
+
+
+# Lager vorne A10
+
+:N_9876852_Bauteil asb:hasModelRepresentation inst:buildingelement_4f1c5e37-811c-429e-8ae8-e6037f330c76.
+:N_8547538_Bauteil asb:hasModelRepresentation inst:buildingelement_4f1c5e37-811c-429e-8ae8-e6037f330c76.
+
+# Lager hinten A30 beide
+
+:N_4717540_Bauteil asb:hasModelRepresentation inst:buildingelement_4f1c5e37-811c-429e-8ae8-e6037f33724d .
+:N_3031074_Bauteil asb:hasModelRepresentation inst:buildingelement_4f1c5e37-811c-429e-8ae8-e6037f33724d .
