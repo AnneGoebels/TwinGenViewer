@@ -87,7 +87,12 @@ class my_app(application):
                 label = QLabel("No IfcPropertySets asscociated with selected entity instance")
                 self.scrollLayout.addWidget(label)
 
-            res = self.links.getLD(product.GlobalId)
+            # with Dataset
+            # res = self.links.getLD(product.GlobalId)
+
+            #without Dataset
+            res = None
+
             group_box = QGroupBox()
 
             group_box.setTitle('Linked Information')
@@ -152,7 +157,8 @@ class my_app(application):
 
                 print("property set dictionary has {} entries".format(len(propset_dict)))
 
-            self.links = LBD_Query
+            #with Dataset
+            # self.links = LBD_Query
 
 
     def __init__(self):
@@ -177,7 +183,7 @@ class my_app(application):
 
 
     def loadExampleFile(self):
-        self.load(r"C:\GitHub\TwinGenViewer\BW45-2_ohneGelaender_mapped.ifc")
+        self.load(r"BW45-2.ifc")
 
     def zoomAll(self):
         self.canvas._display.FitAll()

@@ -59,3 +59,29 @@ asb:beschreibtBauteil a owl:ObjectProperty ;
 
 :N_4717540_Bauteil asb:hasModelRepresentation inst:buildingelement_4f1c5e37-811c-429e-8ae8-e6037f33724d .
 :N_3031074_Bauteil asb:hasModelRepresentation inst:buildingelement_4f1c5e37-811c-429e-8ae8-e6037f33724d .
+
+# + 5 mal Kappen
+# kappe (insg. beide seiten)
+:2311104_BauteilDefinition asb:beschreibtBauteil :N_7849616_Bauteil.
+:2584565_BauteilDefinition asb:beschreibtBauteil :N_7849616_Bauteil.
+:9041564_BauteilDefinition asb:beschreibtBauteil :N_7849616_Bauteil.
+:1000895_BauteilDefinition asb:beschreibtBauteil :N_7849616_Bauteil.
+:5937212_BauteilDefinition asb:beschreibtBauteil :N_7849616_Bauteil.
+
+:N_7849616_Bauteil asb:hasModelRepresentation inst:beam_3a64da00-f073-418e-8d87-0d73841c3059 ,
+                                              inst:beam_bae0fd65-aae8-4a94-97d8-46b63b85dd11 ,
+                                              inst:beam_270f415c-47f1-493f-8adb-420fa881ab20 ,
+                                              inst:beam_270f415c-47f1-493f-8adb-420fa881b210 ,
+                                              inst:beam_270f415c-47f1-493f-8adb-420fa881b74d ,
+                                              inst:beam_270f415c-47f1-493f-8adb-420fa881a194 .
+
+
+# kappe norden mitte
+:7952356_BauteilDefinition asb:beschreibtBauteil :N_7849616_Bauteil.
+
+:7952356_BauteilDefinition asb:hasModelRepresentation inst:beam_3a64da00-f073-418e-8d87-0d73841c3059.
+
+# fundament
+:DP18FYXD_Gruendung  asb:hasModelRepresentation inst:buildingelement_e1d42e4a-8da2-40d2-9545-0c7cb9856a86 ,
+                                                inst:buildingelement_7345dfeb-582f-40d2-b3b1-5daf701d04d4 ,
+                                                inst:buildingelement_e1d42e4a-8da2-40d2-9545-0c7cb9856eda .

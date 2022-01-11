@@ -3,9 +3,6 @@ from rdflib import Literal, Namespace, URIRef, Graph
 from rdflib.plugins.stores.memory import Memory
 from rdflib.graph import ConjunctiveGraph
 from rdflib.plugins.sparql import prepareQuery
-import ifcopenshell
-# from LBD_Query import getLDofGuid
-
 
 def getLD(ifcguid):
 
@@ -92,12 +89,6 @@ def getLD(ifcguid):
         return row
 
 
-#model = ifcopenshell.open(r"C:\Users\Anne\sciebo\2020_twingen_intern\TwinGenViewer\BW45-2.ifc")
-#proxys = list(model.by_type("IfcBuildingelementProxy"))
-#for p in proxys:
-#    guid = p.GlobalId
- #   res = getLD(guid)
- ##  print(res)
 
 
 
